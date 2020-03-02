@@ -1,0 +1,4 @@
+github.com/edsrzf/mmap-go v1.0.0 h1:CEBF7HpRnUCSJgGUb5h1Gm7e3VkmVDrR8lvWVLtrOFw=
+github.com/edsrzf/mmap-go v1.0.0/go.mod h1:YO35OhQPt3KJa3ryjFM5Bs14WD66h8eGKpfaBNrHW5M=
+golang.org/x/sys v0.0.0-20200302083256-062a44052db1 h1:trYYa2hBaTeei9Bq2uAXwsfNYW4r+xD/tztngRsT0cQ=
+golang.org/x/sys v0.0.0-20200302083256-062a44052db1/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
