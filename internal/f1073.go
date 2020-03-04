@@ -122,14 +122,14 @@ lbl2:
 			s1i32 = 16
 			s0i32 = s0i32 + s1i32
 			s1i32 = l3
-			f659(ctx, s0i32, s1i32)
+			f660(ctx, s0i32, s1i32)
 			goto lbl6
 		}
 		s0i32 = l3
 		s1i32 = 16
 		s0i32 = s0i32 + s1i32
 		s1i32 = l2
-		f659(ctx, s0i32, s1i32)
+		f660(ctx, s0i32, s1i32)
 	lbl6:
 		s0i32 = l4
 		s1i32 = 1

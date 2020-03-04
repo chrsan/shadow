@@ -1043,7 +1043,7 @@ lbl20:
 	if s1i32 != 0 {
 		s1f32 = l0
 		s2i32 = l3
-		s1f32 = f1355(ctx, s1f32, s2i32)
+		s1f32 = f1357(ctx, s1f32, s2i32)
 		goto lbl24
 	}
 	s1i32 = l2

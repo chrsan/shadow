@@ -47,7 +47,7 @@ func f1315(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
 		s0i32 = l1
 		s1i32 = l5
 		s2i32 = l3
-		f1689(ctx, s0i32, s1i32, s2i32)
+		f1676(ctx, s0i32, s1i32, s2i32)
 		s0i32 = l2
 		if s0i32 != 0 {
 			goto lbl1

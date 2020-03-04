@@ -117,8 +117,8 @@ func f727(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 	l4 = s0i32
 	ctx.g0 = s0i32
 	s0i32 = l4
-	s1i32 = l2
-	s2i32 = l1
+	s1i32 = l1
+	s2i32 = l2
 	f115(ctx, s0i32, s1i32, s2i32)
 	s0i32 = l1
 	s0i64 = int64(ctx.Mem[int(s0i32+3)])

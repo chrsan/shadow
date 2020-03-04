@@ -4,7 +4,7 @@ import (
 	"unsafe"
 )
 
-func f1586(ctx *Context, l0 int32) int32 {
+func f1586(ctx *Context, l0 int32) {
 	var s0i32 int32
 	_ = s0i32
 	var s1i32 int32
@@ -17,7 +17,7 @@ func f1586(ctx *Context, l0 int32) int32 {
 	s0i32 = s0i32 + s1i32
 	s0i32 = f41(ctx, s0i32)
 	s0i32 = l0
-	s0i32 = f391(ctx, s0i32)
+	s0i32 = f390(ctx, s0i32)
 	s0i32 = l0
-	return s0i32
+	f12(ctx, s0i32)
 }

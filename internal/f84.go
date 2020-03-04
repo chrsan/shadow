@@ -415,7 +415,7 @@ lbl6:
 	} else {
 		s3i32 = 0
 	}
-	f977(ctx, s0i32, s1i32, s2f64, s3i32)
+	f976(ctx, s0i32, s1i32, s2f64, s3i32)
 	s0i32 = l4
 	s0f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)]))
 	s1f32 = 0

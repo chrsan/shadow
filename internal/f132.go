@@ -61,7 +61,7 @@ func f132(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) {
 		s0i32 = l5
 		s1i32 = 96
 		s0i32 = s0i32 + s1i32
-		s0i32 = f38(ctx, s0i32)
+		s0i32 = f37(ctx, s0i32)
 		l7 = s0i32
 		s0i32 = l5
 		s1i64 = 69784829952
@@ -630,7 +630,7 @@ func f132(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) {
 		s2i32 = l7
 		s3i32 = l2
 		s4f32 = l10
-		s0i32 = f697(ctx, s0i32, s1i32, s2i32, s3i32, s4f32)
+		s0i32 = f696(ctx, s0i32, s1i32, s2i32, s3i32, s4f32)
 		l3 = s0i32
 		s0i32 = l7
 		l8 = s0i32

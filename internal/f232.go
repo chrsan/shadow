@@ -55,7 +55,7 @@ func f232(ctx *Context, l0 int32, l1 int32, l2 int32) int32 {
 	}
 	s0i32 = l0
 	s1i32 = l3
-	f687(ctx, s0i32, s1i32)
+	f688(ctx, s0i32, s1i32)
 	s0i32 = l3
 	s0f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s0i32+8)]))
 	s1i32 = l3
@@ -194,7 +194,7 @@ lbl1:
 	s2i32 = 8
 	s1i32 = s1i32 + s2i32
 	s2i32 = l2
-	s0i32 = f445(ctx, s0i32, s1i32, s2i32)
+	s0i32 = f444(ctx, s0i32, s1i32, s2i32)
 lbl0:
 	s0i32 = 1
 	s1i32 = l2

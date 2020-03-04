@@ -615,7 +615,7 @@ lbl12:
 	s2i32 = 112
 	s1i32 = s1i32 + s2i32
 	s2i32 = 0
-	f613(ctx, s0i32, s1i32, s2i32)
+	f611(ctx, s0i32, s1i32, s2i32)
 	s0i32 = l0
 	s1i32 = 1
 	ctx.Mem[int(s0i32+64)] = uint8(s1i32)

@@ -31,7 +31,7 @@ func f547(ctx *Context, l0 int32) {
 	s2i32 = l0
 	s3i32 = 0
 	s4i32 = 0
-	s0i32 = f377(ctx, s0i32, s1i32, s2i32, s3i32, s4i32)
+	s0i32 = f376(ctx, s0i32, s1i32, s2i32, s3i32, s4i32)
 	s0i32 = l1
 	s1i32 = 16
 	s0i32 = s0i32 + s1i32

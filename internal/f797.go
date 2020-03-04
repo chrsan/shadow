@@ -19,8 +19,6 @@ func f797(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 	_ = s5i32
 	var s6i32 int32
 	_ = s6i32
-	var s7i32 int32
-	_ = s7i32
 	var s2f32 float32
 	_ = s2f32
 	var s3f32 float32
@@ -51,9 +49,6 @@ func f797(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 	s4f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s4i32+24)]))
 	s5f32 = l4
 	s4f32 = s4f32 * s5f32
-	s5i32 = l0
-	s5f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s5i32+36)]))
-	s4f32 = s4f32 + s5f32
 	s3f32 = s3f32 + s4f32
 	s2f32 = s2f32 + s3f32
 	s3i32 = l0
@@ -68,9 +63,6 @@ func f797(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 	s5f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s5i32+28)]))
 	s6f32 = l4
 	s5f32 = s5f32 * s6f32
-	s6i32 = l0
-	s6f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s6i32+40)]))
-	s5f32 = s5f32 + s6f32
 	s4f32 = s4f32 + s5f32
 	s3f32 = s3f32 + s4f32
 	s4i32 = l0
@@ -85,9 +77,6 @@ func f797(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 	s6f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s6i32+32)]))
 	s7f32 = l4
 	s6f32 = s6f32 * s7f32
-	s7i32 = l0
-	s7f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s7i32+44)]))
-	s6f32 = s6f32 + s7f32
 	s5f32 = s5f32 + s6f32
 	s4f32 = s4f32 + s5f32
 	s5f32 = l5

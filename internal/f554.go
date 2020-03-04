@@ -76,7 +76,7 @@ func f554(ctx *Context, l0 int32, l1 int32, l2 float32, l3 int32) int32 {
 	s5i32 = l5
 	s6i32 = 4
 	s5i32 = s5i32 + s6i32
-	s0i32 = f1406(ctx, s0i32, s1i32, s2f32, s3i32, s4i32, s5i32)
+	s0i32 = f1407(ctx, s0i32, s1i32, s2f32, s3i32, s4i32, s5i32)
 	if s0i32 == 0 {
 		s0i32 = 1
 	} else {

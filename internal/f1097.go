@@ -50,7 +50,7 @@ func f1097(ctx *Context, l0 int32, l1 int32, l2 int32) {
 	s0i32 = l3
 	s1i32 = 4
 	s0i32 = s0i32 + s1i32
-	s0i32 = f38(ctx, s0i32)
+	s0i32 = f37(ctx, s0i32)
 	l1 = s0i32
 	s0i32 = l3
 	s1i32 = 0
@@ -91,7 +91,7 @@ func f1097(ctx *Context, l0 int32, l1 int32, l2 int32) {
 			s0i32 = l2
 		}
 		s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+4)]))
-		f2071(ctx, s0i32)
+		f2072(ctx, s0i32)
 		s0i32 = l0
 		s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+12)]))
 		s1i32 = 1

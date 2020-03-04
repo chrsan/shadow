@@ -192,7 +192,7 @@ lbl6:
 	s4i32 = 8
 	s3i32 = s3i32 + s4i32
 	s4i32 = l7
-	f1086(ctx, s0i32, s1i32, s2i32, s3i32, s4i32)
+	f1085(ctx, s0i32, s1i32, s2i32, s3i32, s4i32)
 	s0i32 = l4
 	if s0i32 != 0 {
 		goto lbl6

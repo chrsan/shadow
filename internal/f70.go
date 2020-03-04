@@ -145,7 +145,7 @@ func f70(ctx *Context, l0 int32, l1 int32) int32 {
 		s2i32 = l2
 		s3i32 = 40
 		s2i32 = s2i32 + s3i32
-		s0i32 = f1513(ctx, s0i32, s1i32, s2i32)
+		s0i32 = f1494(ctx, s0i32, s1i32, s2i32)
 		goto lbl0
 	}
 	s0i32 = l0

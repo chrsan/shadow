@@ -256,7 +256,7 @@ func f1766(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 	s4i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s4i32+0)]))
 	s5i32 = l1
 	s5i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s5i32+4)]))
-	s0i32 = f342(ctx, s0i32, s1i32, s2i32, s3i32, s4i32, s5i32)
+	s0i32 = f341(ctx, s0i32, s1i32, s2i32, s3i32, s4i32, s5i32)
 	if s0i32 == 0 {
 		s0i32 = 1
 	} else {
@@ -284,7 +284,7 @@ func f1766(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 	s0i32 = f17(ctx, s0i32)
 	l1 = s0i32
 	s0i32 = l7
-	s0i32 = f344(ctx, s0i32)
+	s0i32 = f343(ctx, s0i32)
 	l4 = s0i32
 	s0i32 = l1
 	s1i32 = 24932
@@ -333,7 +333,7 @@ lbl9:
 	if s1i32 != 0 {
 		s1i32 = l4
 	} else {
-		s1i32 = f439(ctx)
+		s1i32 = f438(ctx)
 	}
 	*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+32)])) = uint32(s1i32)
 	s0i32 = l1
@@ -343,7 +343,7 @@ lbl9:
 	s1i32 = 36
 	s0i32 = s0i32 + s1i32
 	s1i32 = l7
-	s0i32 = f180(ctx, s0i32, s1i32)
+	s0i32 = f179(ctx, s0i32, s1i32)
 	s0i32 = l0
 	s1i32 = l1
 	*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = uint32(s1i32)

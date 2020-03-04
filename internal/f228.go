@@ -145,7 +145,7 @@ lbl0:
 	s2i32 = l2
 	s3i32 = 32
 	s2i32 = s2i32 + s3i32
-	s0i32 = f1937(ctx, s0i32, s1i32, s2i32)
+	s0i32 = f1938(ctx, s0i32, s1i32, s2i32)
 	if s0i32 == 0 {
 		s0i32 = 1
 	} else {
@@ -219,7 +219,7 @@ lbl0:
 	s4i32 = 132
 	s3i32 = s3i32 + s4i32
 	l1 = s3i32
-	f1930(ctx, s0i32, s1i32, s2i32, s3i32)
+	f1931(ctx, s0i32, s1i32, s2i32, s3i32)
 	s0i32 = l2
 	s1i32 = l0
 	s1i64 = *(*int64)(unsafe.Pointer(&ctx.Mem[int(s1i32+72)]))

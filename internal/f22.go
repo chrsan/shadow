@@ -28,7 +28,7 @@ func f22(ctx *Context, l0 int32, l1 int32, l2 int32) int32 {
 		s0i32 = l0
 		s1i32 = l1
 		s2i32 = l2
-		f1345(ctx, s0i32, s1i32, s2i32)
+		f1347(ctx, s0i32, s1i32, s2i32)
 		s0i32 = l0
 		return s0i32
 	}

@@ -7,6 +7,10 @@ import (
 func f818(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, l5 float32) {
 	var l6 float32
 	_ = l6
+	var l7 float32
+	_ = l7
+	var l8 float32
+	_ = l8
 	var s0i32 int32
 	_ = s0i32
 	var s1i32 int32
@@ -33,6 +37,8 @@ func f818(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 	_ = s6f32
 	var s7f32 float32
 	_ = s7f32
+	var s8f32 float32
+	_ = s8f32
 	s0i32 = l0
 	s1i32 = l1
 	s2i32 = 4
@@ -41,38 +47,60 @@ func f818(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 	s2f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s2i32+12)]))
 	l6 = s2f32
 	s3f32 = l2
-	s2f32 = s2f32 + s3f32
-	s3f32 = l6
-	s4f32 = l2
+	s2f32 = s2f32 * s3f32
+	s3f32 = 1
+	s4f32 = l5
+	s3f32 = s3f32 - s4f32
+	l7 = s3f32
+	s4f32 = l6
 	s3f32 = s3f32 * s4f32
-	s2f32 = s2f32 - s3f32
+	s4f32 = 1
+	s5i32 = l0
+	s5f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s5i32+24)]))
+	l8 = s5f32
+	s4f32 = s4f32 - s5f32
+	l6 = s4f32
+	s5f32 = l2
+	s4f32 = s4f32 * s5f32
+	s3f32 = s3f32 + s4f32
+	s2f32 = s2f32 + s3f32
 	s3i32 = l0
 	s3f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s3i32+16)]))
 	l2 = s3f32
 	s4f32 = l3
-	s3f32 = s3f32 + s4f32
-	s4f32 = l2
-	s5f32 = l3
+	s3f32 = s3f32 * s4f32
+	s4f32 = l7
+	s5f32 = l2
 	s4f32 = s4f32 * s5f32
-	s3f32 = s3f32 - s4f32
+	s5f32 = l6
+	s6f32 = l3
+	s5f32 = s5f32 * s6f32
+	s4f32 = s4f32 + s5f32
+	s3f32 = s3f32 + s4f32
 	s4i32 = l0
 	s4f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s4i32+20)]))
 	l2 = s4f32
 	s5f32 = l4
-	s4f32 = s4f32 + s5f32
-	s5f32 = l2
+	s4f32 = s4f32 * s5f32
+	s5f32 = l6
 	s6f32 = l4
 	s5f32 = s5f32 * s6f32
-	s4f32 = s4f32 - s5f32
-	s5i32 = l0
-	s5f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s5i32+24)]))
-	l2 = s5f32
-	s6f32 = l5
-	s5f32 = s5f32 + s6f32
-	s6f32 = l2
-	s7f32 = l5
+	s6f32 = l7
+	s7f32 = l2
 	s6f32 = s6f32 * s7f32
-	s5f32 = s5f32 - s6f32
+	s5f32 = s5f32 + s6f32
+	s4f32 = s4f32 + s5f32
+	s5f32 = l8
+	s6f32 = l5
+	s5f32 = s5f32 * s6f32
+	s6f32 = l7
+	s7f32 = l8
+	s6f32 = s6f32 * s7f32
+	s7f32 = l6
+	s8f32 = l5
+	s7f32 = s7f32 * s8f32
+	s6f32 = s6f32 + s7f32
+	s5f32 = s5f32 + s6f32
 	s6i32 = l1
 	s6i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s6i32+0)]))
 	if int(s6i32) < 0 || int(s6i32) >= len(table) {

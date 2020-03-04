@@ -302,7 +302,7 @@ lbl1:
 	}
 	s0i32 = l2
 	s1i32 = l1
-	s0i32 = f665(ctx, s0i32, s1i32)
+	s0i32 = f666(ctx, s0i32, s1i32)
 lbl10:
 	l2 = s0i32
 	s0i32 = l0

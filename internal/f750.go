@@ -36,7 +36,7 @@ func f750(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 	s3f32 = l3
 	s4f32 = l3
 	s3f32 = s3f32 * s4f32
-	s2f32 = s2f32 - s3f32
+	s2f32 = s2f32 + s3f32
 	s2f32 = float32(math.Sqrt(float64(s2f32)))
 	s3i32 = l1
 	s3i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s3i32+0)]))

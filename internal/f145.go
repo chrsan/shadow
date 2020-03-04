@@ -97,7 +97,7 @@ func f145(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 		s1i32 = l5
 		s2i32 = l7
 		s1i32 = s1i32 - s2i32
-		f596(ctx, s0i32, s1i32)
+		f597(ctx, s0i32, s1i32)
 		s0i32 = l1
 		s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)]))
 		l4 = s0i32
@@ -162,7 +162,7 @@ lbl0:
 		s2i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s2i32+16)]))
 		s2i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s2i32+20)]))
 		s2f32 = float32(s2i32)
-		s0i32 = f577(ctx, s0i32, s1i32, s2f32)
+		s0i32 = f578(ctx, s0i32, s1i32, s2f32)
 		l2 = s0i32
 		goto lbl2
 	}
@@ -174,7 +174,7 @@ lbl0:
 	s2i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s2i32+16)]))
 	s2i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s2i32+20)]))
 	s2f32 = float32(s2i32)
-	s0i32 = f576(ctx, s0i32, s1i32, s2f32)
+	s0i32 = f577(ctx, s0i32, s1i32, s2f32)
 	l2 = s0i32
 lbl2:
 	s0i32 = l10
@@ -203,7 +203,7 @@ lbl2:
 		s2i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s2i32+16)]))
 		s2i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s2i32+24)]))
 		s2f32 = float32(s2i32)
-		s0i32 = f577(ctx, s0i32, s1i32, s2f32)
+		s0i32 = f578(ctx, s0i32, s1i32, s2f32)
 		l3 = s0i32
 		goto lbl4
 	}
@@ -215,7 +215,7 @@ lbl2:
 	s2i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s2i32+16)]))
 	s2i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s2i32+24)]))
 	s2f32 = float32(s2i32)
-	s0i32 = f576(ctx, s0i32, s1i32, s2f32)
+	s0i32 = f577(ctx, s0i32, s1i32, s2f32)
 	l3 = s0i32
 lbl4:
 	s0i32 = l1
@@ -419,14 +419,14 @@ lbl10:
 	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)]))
 	l12 = s0i32
 	s1i32 = l9
-	s0i32 = f600(ctx, s0i32, s1i32)
+	s0i32 = f602(ctx, s0i32, s1i32)
 	l13 = s0i32
 	s0i32 = l1
 	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+8)]))
 	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)]))
 	l15 = s0i32
 	s1i32 = l11
-	s0i32 = f600(ctx, s0i32, s1i32)
+	s0i32 = f602(ctx, s0i32, s1i32)
 	l16 = s0i32
 	s0i32 = l1
 	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+8)]))
@@ -556,7 +556,7 @@ lbl19:
 	s7i32 = l8
 	s8i32 = l7
 	s2i32 = f21(ctx, s2i32, s3i32, s4i32, s5i32, s6i32, s7i32, s8i32)
-	f397(ctx, s0i32, s1i32, s2i32)
+	f396(ctx, s0i32, s1i32, s2i32)
 	s0i32 = l0
 	s1i32 = l6
 	s1i64 = *(*int64)(unsafe.Pointer(&ctx.Mem[int(s1i32+8)]))
@@ -707,7 +707,7 @@ lbl14:
 	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+8)]))
 	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)]))
 	s1i32 = -1
-	s0i32 = f169(ctx, s0i32, s1i32)
+	s0i32 = f170(ctx, s0i32, s1i32)
 	l4 = s0i32
 	s0i32 = l10
 	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+52)]))

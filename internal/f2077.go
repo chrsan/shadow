@@ -117,5 +117,5 @@ func f2077(ctx *Context, l0 int32) {
 	s3i32 = 0
 	s4i32 = l3
 	s5i32 = l2
-	f671(ctx, s0i32, s1i32, s2i32, s3i32, s4i32, s5i32)
+	f672(ctx, s0i32, s1i32, s2i32, s3i32, s4i32, s5i32)
 }

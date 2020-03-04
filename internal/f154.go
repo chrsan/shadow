@@ -625,7 +625,7 @@ lbl8:
 	s4i32 = 168
 	s3i32 = s3i32 + s4i32
 	s4i32 = l5
-	s0i32 = f686(ctx, s0i32, s1i32, s2i32, s3i32, s4i32)
+	s0i32 = f687(ctx, s0i32, s1i32, s2i32, s3i32, s4i32)
 	l6 = s0i32
 	if s0i32 != 0 {
 		s0i32 = l6

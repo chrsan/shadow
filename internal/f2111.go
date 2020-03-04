@@ -49,7 +49,7 @@ func f2111(ctx *Context, l0 int32, l1 int32, l2 int32) int32 {
 	s1i32 = l3
 	s2i32 = 8
 	s1i32 = s1i32 + s2i32
-	s0i32 = f447(ctx, s0i32, s1i32)
+	s0i32 = f446(ctx, s0i32, s1i32)
 	l6 = s0i32
 	s1i32 = 0
 	if s0i32 <= s1i32 {
@@ -161,7 +161,7 @@ lbl0:
 	s1i32 = l1
 	s2i32 = l5
 	s3i32 = l2
-	f448(ctx, s0i32, s1i32, s2i32, s3i32)
+	f447(ctx, s0i32, s1i32, s2i32, s3i32)
 lbl4:
 	s0i32 = l3
 	s1i32 = 32

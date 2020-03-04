@@ -72,7 +72,7 @@ func f1597(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) {
 	s2i32 = l5
 	s3i32 = 16
 	s2i32 = s2i32 + s3i32
-	f434(ctx, s0i32, s1i32, s2i32)
+	f433(ctx, s0i32, s1i32, s2i32)
 	s0i32 = l6
 	s1i32 = 4
 	s2i32 = l5

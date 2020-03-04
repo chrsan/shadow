@@ -4,7 +4,7 @@ import (
 	"unsafe"
 )
 
-func f1958(ctx *Context, l0 int32) int32 {
+func f1958(ctx *Context, l0 int32) {
 	var l1 int32
 	_ = l1
 	var l2 int32
@@ -50,7 +50,7 @@ func f1958(ctx *Context, l0 int32) int32 {
 	f12(ctx, s0i32)
 lbl0:
 	s0i32 = l0
-	s0i32 = f351(ctx, s0i32)
+	s0i32 = f350(ctx, s0i32)
 	s0i32 = l0
-	return s0i32
+	f12(ctx, s0i32)
 }

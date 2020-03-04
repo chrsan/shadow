@@ -166,7 +166,7 @@ lbl2:
 	s2i32 = s2i32 + s3i32
 	s3i32 = l0
 	s3i32 = int32(ctx.Mem[int(s3i32+8)])
-	s0i32 = f443(ctx, s0i32, s1i32, s2i32, s3i32)
+	s0i32 = f442(ctx, s0i32, s1i32, s2i32, s3i32)
 	l5 = s0i32
 	s1i32 = 1
 	if s0i32 >= s1i32 {
@@ -244,7 +244,7 @@ lbl1:
 	s1i32 = l3
 	s2i32 = 80
 	s1i32 = s1i32 + s2i32
-	s0i32 = f690(ctx, s0i32, s1i32)
+	s0i32 = f691(ctx, s0i32, s1i32)
 	l5 = s0i32
 	s1i32 = 0
 	if s0i32 < s1i32 {
@@ -266,7 +266,7 @@ lbl5:
 	s1i32 = s1i32 * s2i32
 	s0i32 = s0i32 + s1i32
 	s1i32 = l3
-	s0i32 = f2113(ctx, s0i32, s1i32)
+	s0i32 = f2114(ctx, s0i32, s1i32)
 	l8 = s0i32
 	s1i32 = -1
 	if s0i32 > s1i32 {
@@ -283,7 +283,7 @@ lbl5:
 		s2i32 = s2i32 * s3i32
 		s1i32 = s1i32 + s2i32
 		s2i32 = l2
-		f2103(ctx, s0i32, s1i32, s2i32)
+		f2104(ctx, s0i32, s1i32, s2i32)
 		s0i32 = l1
 		s1i32 = l8
 		if s0i32 == s1i32 {

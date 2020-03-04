@@ -383,7 +383,7 @@ lbl17:
 lbl16:
 	s1i32 = l2
 	s2i32 = l2
-	s1i32 = f674(ctx, s1i32, s2i32)
+	s1i32 = f675(ctx, s1i32, s2i32)
 	if s1i32 != 0 {
 		goto lbl12
 	}
@@ -405,7 +405,7 @@ lbl19:
 	s4i32 = 3
 	s3i32 = s3i32 << (uint32(s4i32) & 31)
 	s2i32 = s2i32 + s3i32
-	s1i32 = f674(ctx, s1i32, s2i32)
+	s1i32 = f675(ctx, s1i32, s2i32)
 	if s1i32 != 0 {
 		s1i32 = l1
 		s2i32 = l3

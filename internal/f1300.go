@@ -139,7 +139,7 @@ lbl0:
 	s2i32 = l0
 	s3i32 = 40
 	s2i32 = s2i32 + s3i32
-	f1382(ctx, s0i32, s1i32, s2i32)
+	f1383(ctx, s0i32, s1i32, s2i32)
 	s0i32 = l2
 	s1i32 = l3
 	s1i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s1i32+40)]))

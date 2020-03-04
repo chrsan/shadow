@@ -164,7 +164,7 @@ lbl2:
 	s1i32 = 4
 	s0i32 = s0i32 + s1i32
 	s1i32 = l11
-	s0i32 = f349(ctx, s0i32, s1i32)
+	s0i32 = f348(ctx, s0i32, s1i32)
 	if s0i32 == 0 {
 		s0i32 = 1
 	} else {

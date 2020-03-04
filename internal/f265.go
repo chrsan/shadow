@@ -671,7 +671,7 @@ lbl3:
 	s3i32 = l2
 	s4i32 = l4
 	s5i32 = l1
-	s0i32 = f638(ctx, s0i32, s1i32, s2i32, s3i32, s4i32, s5i32)
+	s0i32 = f640(ctx, s0i32, s1i32, s2i32, s3i32, s4i32, s5i32)
 	l12 = s0i32
 lbl2:
 	s0i32 = l12

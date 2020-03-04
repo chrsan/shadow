@@ -632,7 +632,7 @@ func f261(ctx *Context, l0 int32, l1 int32, l2 int32) {
 		}
 		s0i32 = l2
 		s1i32 = l1
-		f365(ctx, s0i32, s1i32)
+		f364(ctx, s0i32, s1i32)
 		goto lbl1
 	lbl16:
 		s0i32 = l3
@@ -760,7 +760,7 @@ func f261(ctx *Context, l0 int32, l1 int32, l2 int32) {
 		} else {
 			s6i32 = 0
 		}
-		f410(ctx, s0i32, s1i32, s2i32, s3i32, s4i32, s5i32, s6i32)
+		f409(ctx, s0i32, s1i32, s2i32, s3i32, s4i32, s5i32, s6i32)
 		s0i32 = l0
 		s0i32 = int32(ctx.Mem[int(s0i32+10)])
 		s1i32 = 2

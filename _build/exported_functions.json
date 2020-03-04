@@ -3,6 +3,7 @@
   "_free",
 
   "_skia_matrix_size",
+  "_skia_matrix_init",
   "_skia_matrix_create",
   "_skia_matrix_destroy",
   "_skia_matrix_create_from",
@@ -32,6 +33,7 @@
   "_skia_canvas_draw_rect",
 
   "_skia_paint_size",
+  "_skia_paint_init",
   "_skia_paint_create",
   "_skia_paint_destroy",
   "_skia_paint_get_style",
@@ -56,6 +58,7 @@
   "_skia_rect_size",
 
   "_skia_path_size",
+  "_skia_path_init",
   "_skia_path_create",
   "_skia_path_destroy",
   "_skia_path_get_fill_type",

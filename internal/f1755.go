@@ -45,7 +45,7 @@ func f1755(ctx *Context, l0 int32, l1 int32, l2 int32) {
 		*(*uint64)(unsafe.Pointer(&ctx.Mem[int(s1i32+8)])) = uint64(s2i64)
 		s1i32 = l1
 		s2i32 = l2
-		s0i32 = f343(ctx, s0i32, s1i32, s2i32)
+		s0i32 = f342(ctx, s0i32, s1i32, s2i32)
 		if s0i32 == 0 {
 			s0i32 = 1
 		} else {

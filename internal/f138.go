@@ -375,7 +375,7 @@ func f138(ctx *Context, l0 int32, l1 int32, l2 int32) {
 		s0i32 = l3
 		s1f32 = 1
 		s2i32 = l1
-		s0f32 = f444(ctx, s0i32, s1f32, s2i32)
+		s0f32 = f443(ctx, s0i32, s1f32, s2i32)
 		l7 = s0f32
 		s0i32 = l3
 		s1i32 = 88
@@ -397,7 +397,7 @@ func f138(ctx *Context, l0 int32, l1 int32, l2 int32) {
 		s1i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s1i32+44)]))
 		s1f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s1i32+0)]))
 		s2i32 = l1
-		s0f32 = f444(ctx, s0i32, s1f32, s2i32)
+		s0f32 = f443(ctx, s0i32, s1f32, s2i32)
 		l7 = s0f32
 		s0i32 = l3
 		s1i32 = 88
@@ -419,7 +419,7 @@ func f138(ctx *Context, l0 int32, l1 int32, l2 int32) {
 		s0i32 = s0i32 + s1i32
 		s1i32 = l3
 		s2i32 = 2
-		f441(ctx, s0i32, s1i32, s2i32)
+		f440(ctx, s0i32, s1i32, s2i32)
 		goto lbl7
 	lbl9:
 		s0i32 = l3

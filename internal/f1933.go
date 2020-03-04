@@ -124,7 +124,7 @@ func f1933(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 in
 	*(*uint64)(unsafe.Pointer(&ctx.Mem[int(s0i32+16)])) = uint64(s1i64)
 lbl0:
 	s0i32 = l6
-	s0i32 = f38(ctx, s0i32)
+	s0i32 = f37(ctx, s0i32)
 	l3 = s0i32
 	s1i32 = l1
 	f331(ctx, s0i32, s1i32)
@@ -136,7 +136,7 @@ lbl0:
 	s3i32 = s3i32 + s4i32
 	s4i32 = l4
 	s5i32 = l5
-	f435(ctx, s0i32, s1i32, s2i32, s3i32, s4i32, s5i32)
+	f434(ctx, s0i32, s1i32, s2i32, s3i32, s4i32, s5i32)
 	s0i32 = l3
 	f34(ctx, s0i32)
 	s0i32 = l6

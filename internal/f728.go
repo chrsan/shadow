@@ -70,10 +70,10 @@ func f728(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) {
 			s1i32 = 48
 			s0i32 = s0i32 + s1i32
 			s1i32 = l0
-			s2i32 = 16
+			s2i32 = 32
 			s1i32 = s1i32 + s2i32
 			s2i32 = l0
-			s3i32 = 32
+			s3i32 = 16
 			s2i32 = s2i32 + s3i32
 			f115(ctx, s0i32, s1i32, s2i32)
 			s0i32 = l0
@@ -98,9 +98,9 @@ func f728(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) {
 			s1i32 = 32
 			s0i32 = s0i32 + s1i32
 			s1i32 = l0
+			s2i32 = 16
+			s1i32 = s1i32 + s2i32
 			s2i32 = l0
-			s3i32 = 16
-			s2i32 = s2i32 + s3i32
 			f115(ctx, s0i32, s1i32, s2i32)
 			s0i32 = l1
 			s1i32 = l0
@@ -179,10 +179,10 @@ func f728(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) {
 			s1i32 = 48
 			s0i32 = s0i32 + s1i32
 			s1i32 = l0
-			s2i32 = 16
+			s2i32 = 32
 			s1i32 = s1i32 + s2i32
 			s2i32 = l0
-			s3i32 = 32
+			s3i32 = 16
 			s2i32 = s2i32 + s3i32
 			f115(ctx, s0i32, s1i32, s2i32)
 			s0i32 = l1
@@ -226,10 +226,10 @@ func f728(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) {
 			s1i32 = 48
 			s0i32 = s0i32 + s1i32
 			s1i32 = l0
-			s2i32 = 16
+			s2i32 = 32
 			s1i32 = s1i32 + s2i32
 			s2i32 = l0
-			s3i32 = 32
+			s3i32 = 16
 			s2i32 = s2i32 + s3i32
 			f115(ctx, s0i32, s1i32, s2i32)
 			s0i32 = l1
@@ -271,10 +271,10 @@ func f728(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) {
 		s1i32 = 48
 		s0i32 = s0i32 + s1i32
 		s1i32 = l0
-		s2i32 = 16
+		s2i32 = 32
 		s1i32 = s1i32 + s2i32
 		s2i32 = l0
-		s3i32 = 32
+		s3i32 = 16
 		s2i32 = s2i32 + s3i32
 		f115(ctx, s0i32, s1i32, s2i32)
 		s0i32 = l1
@@ -287,7 +287,7 @@ func f728(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) {
 	s1i32 = l1
 	s2i32 = l2
 	s3i32 = l4
-	s4i32 = 472
+	s4i32 = 471
 	f98(ctx, s0i32, s1i32, s2i32, s3i32, s4i32)
 lbl0:
 	s0i32 = l0

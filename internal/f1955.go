@@ -59,7 +59,7 @@ func f1955(ctx *Context, l0 int32) int32 {
 	s2i32 = l1
 	s3i32 = 4
 	s2i32 = s2i32 + s3i32
-	s0i32 = f426(ctx, s0i32, s1i32, s2i32)
+	s0i32 = f425(ctx, s0i32, s1i32, s2i32)
 	if s0i32 == 0 {
 		s0i32 = 1
 	} else {

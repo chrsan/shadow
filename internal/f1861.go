@@ -42,11 +42,11 @@ func f1861(ctx *Context, l0 int32, l1 float32, l2 float32, l3 float32) int32 {
 	s1i32 = 0
 	s2f32 = l1
 	s3f32 = l2
-	s3i32 = f646(ctx, s3f32)
+	s3i32 = f647(ctx, s3f32)
 	l4 = s3i32
 	s4f32 = l2
 	s5f32 = l3
-	s5i32 = f646(ctx, s5f32)
+	s5i32 = f647(ctx, s5f32)
 	l5 = s5i32
 	s6f32 = l3
 	f171(ctx, s0i32, s1i32, s2f32, s3i32, s4f32, s5i32, s6f32)

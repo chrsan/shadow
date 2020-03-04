@@ -60,6 +60,7 @@ typedef struct {
 
 #ifdef WASM_BUILD
 size_t skia_matrix_size();
+void skia_matrix_init(void* mem);
 #endif
 
 skia_matrix* skia_matrix_create();
@@ -135,6 +136,7 @@ void skia_canvas_draw_rect(skia_canvas* canvas,
 
 #ifdef WASM_BUILD
 size_t skia_paint_size();
+void skia_paint_init(void* mem);
 #endif
 
 skia_paint* skia_paint_create();
@@ -185,6 +187,7 @@ size_t skia_rect_size();
 
 #ifdef WASM_BUILD
 size_t skia_path_size();
+void skia_path_init(void* mem);
 #endif
 
 skia_path* skia_path_create();

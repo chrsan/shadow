@@ -40,7 +40,7 @@ func f553(ctx *Context, l0 int32, l1 float32, l2 float32) int32 {
 	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+64)]))
 	s1i32 = l0
 	s1i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s1i32+72)]))
-	s0i32 = f563(ctx, s0i32, s1i32)
+	s0i32 = f564(ctx, s0i32, s1i32)
 	if s0i32 != 0 {
 		s0i32 = l3
 		s1i32 = 0
@@ -110,7 +110,7 @@ func f553(ctx *Context, l0 int32, l1 float32, l2 float32) int32 {
 		s5i32 = l3
 		s6i32 = 80
 		s5i32 = s5i32 + s6i32
-		s0i32 = f559(ctx, s0i32, s1i32, s2i32, s3f32, s4i32, s5i32)
+		s0i32 = f560(ctx, s0i32, s1i32, s2i32, s3f32, s4i32, s5i32)
 		if s0i32 != 0 {
 			s0i32 = 0
 			l5 = s0i32
@@ -222,7 +222,7 @@ func f553(ctx *Context, l0 int32, l1 float32, l2 float32) int32 {
 			s5i32 = l3
 			s6i32 = 48
 			s5i32 = s5i32 + s6i32
-			s0i32 = f559(ctx, s0i32, s1i32, s2i32, s3f32, s4i32, s5i32)
+			s0i32 = f560(ctx, s0i32, s1i32, s2i32, s3f32, s4i32, s5i32)
 			l5 = s0i32
 			s0i32 = 0
 			l4 = s0i32
@@ -268,7 +268,7 @@ func f553(ctx *Context, l0 int32, l1 float32, l2 float32) int32 {
 			s4i32 = l3
 			s5i32 = 48
 			s4i32 = s4i32 + s5i32
-			f1396(ctx, s0i32, s1i32, s2i32, s3i32, s4i32)
+			f1398(ctx, s0i32, s1i32, s2i32, s3i32, s4i32)
 			s0i32 = 1
 			l4 = s0i32
 		lbl8:

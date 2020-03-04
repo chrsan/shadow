@@ -44,7 +44,7 @@ func f1887(ctx *Context, l0 int32, l1 int32) {
 	var s4i32 int32
 	_ = s4i32
 	s0i32 = l0
-	f427(ctx, s0i32)
+	f426(ctx, s0i32)
 	s0i32 = l0
 	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+8)]))
 	l4 = s0i32

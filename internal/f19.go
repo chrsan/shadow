@@ -25,7 +25,7 @@ func f19(ctx *Context, l0 int32, l1 int32) {
 	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)]))
 	s1i32 = l0
 	s2i32 = l1
-	s0i32 = f375(ctx, s0i32, s1i32, s2i32)
+	s0i32 = f374(ctx, s0i32, s1i32, s2i32)
 	s0i32 = l2
 	s1i32 = 16
 	s0i32 = s0i32 + s1i32

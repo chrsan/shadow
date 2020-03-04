@@ -4,11 +4,7 @@ import (
 	"unsafe"
 )
 
-func f1910(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
-	var l4 int32
-	_ = l4
-	var l5 int32
-	_ = l5
+func f1910(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int64) {
 	var s0i32 int32
 	_ = s0i32
 	var s1i32 int32
@@ -21,68 +17,34 @@ func f1910(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 	_ = s4i32
 	var s5i32 int32
 	_ = s5i32
+	var s1i64 int64
+	_ = s1i64
 	s0i32 = l0
-	s1i32 = 1064
-	s0i32 = s0i32 + s1i32
 	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)]))
-	l4 = s0i32
-	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+48)]))
-	l5 = s0i32
-	s1i32 = 1
-	if s0i32 >= s1i32 {
-		s0i32 = 1
-	} else {
-		s0i32 = 0
-	}
-	if s0i32 != 0 {
-		s0i32 = l4
-		s1i32 = l5
-		s2i32 = -1
-		s1i32 = s1i32 + s2i32
-		*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+48)])) = uint32(s1i32)
-		s0i32 = l0
-		s1i32 = l0
-		s2i32 = 1032
-		s1i32 = s1i32 + s2i32
-		s1i32 = f94(ctx, s1i32)
-		l5 = s1i32
-		*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+1064)])) = uint32(s1i32)
-		s0i32 = l5
-		s1i32 = l4
-		f226(ctx, s0i32, s1i32)
-		s0i32 = l5
-		s1i32 = l4
-		s1i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s1i32+48)]))
-		*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+48)])) = uint32(s1i32)
-		s0i32 = l0
-		s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+1064)]))
-		l4 = s0i32
-		s1i32 = 0
-		*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+48)])) = uint32(s1i32)
-	}
-	s0i32 = l4
+	s1i32 = l0
+	s1i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s1i32+4)]))
+	l0 = s1i32
+	s2i32 = l2
+	s1i32 = s1i32 * s2i32
+	s0i32 = s0i32 + s1i32
 	s1i32 = l1
-	s2i32 = l0
-	s3i32 = 116
-	s2i32 = s2i32 + s3i32
+	s2i32 = 3
+	s1i32 = s1i32 << (uint32(s2i32) & 31)
+	s0i32 = s0i32 + s1i32
+	s1i64 = l5
+	s2i32 = l3
 	s3i32 = l0
-	s4i32 = 1068
-	s3i32 = s3i32 + s4i32
-	l1 = s3i32
-	s4i32 = l2
-	s5i32 = l3
-	f1933(ctx, s0i32, s1i32, s2i32, s3i32, s4i32, s5i32)
-	s0i32 = l2
-	s1i32 = 2
-	if s0i32 >= s1i32 {
-		s0i32 = 1
-	} else {
-		s0i32 = 0
+	s4i32 = l4
+	s5i32 = 22136
+	s5i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s5i32+0)]))
+	if int(s5i32) < 0 || int(s5i32) >= len(table) {
+		panic("table entry out of bounds")
 	}
-	if s0i32 != 0 {
-		s0i32 = l0
-		s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+1064)]))
-		s1i32 = l1
-		f273(ctx, s0i32, s1i32)
+	if table[s5i32].numParams == -1 {
+		panic("table entry is nil")
 	}
+	if table[s5i32].numParams != 5 {
+		panic("argument count mismatch")
+	}
+	(*(*func(*Context, int32, int64, int32, int32, int32))(table[s5i32].f()))(ctx, s0i32, s1i64, s2i32, s3i32, s4i32)
 }

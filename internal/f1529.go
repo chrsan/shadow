@@ -26,28 +26,23 @@ func f1529(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 in
 	var s1i64 int64
 	_ = s1i64
 	s0i32 = ctx.g0
-	s1i32 = 32
+	s1i32 = 16
 	s0i32 = s0i32 - s1i32
 	l2 = s0i32
 	ctx.g0 = s0i32
+	s0i32 = l0
+	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+48)]))
+	l3 = s0i32
 	s0i32 = l2
-	s1i32 = 16
-	s0i32 = s0i32 + s1i32
 	s1i32 = l0
-	s1i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s1i32+48)]))
-	f185(ctx, s0i32, s1i32)
-	s0i32 = f105(ctx)
-	l0 = s0i32
-	s0i32 = l2
-	s1i32 = l2
-	s1i64 = *(*int64)(unsafe.Pointer(&ctx.Mem[int(s1i32+24)]))
+	s1i64 = *(*int64)(unsafe.Pointer(&ctx.Mem[int(s1i32+60)]))
 	*(*uint64)(unsafe.Pointer(&ctx.Mem[int(s0i32+8)])) = uint64(s1i64)
 	s0i32 = l2
-	s1i32 = l2
-	s1i64 = *(*int64)(unsafe.Pointer(&ctx.Mem[int(s1i32+16)]))
+	s1i32 = l0
+	s1i64 = *(*int64)(unsafe.Pointer(&ctx.Mem[int(s1i32+52)]))
 	*(*uint64)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = uint64(s1i64)
 	s0i32 = l2
-	s1i32 = l0
+	s1i32 = l3
 	s2i32 = l1
 	s3i32 = l5
 	s4i32 = l6
@@ -55,9 +50,9 @@ func f1529(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 in
 	s6i32 = l11
 	s7i32 = l12
 	s8i32 = l13
-	f582(ctx, s0i32, s1i32, s2i32, s3i32, s4i32, s5i32, s6i32, s7i32, s8i32)
+	f583(ctx, s0i32, s1i32, s2i32, s3i32, s4i32, s5i32, s6i32, s7i32, s8i32)
 	s0i32 = l2
-	s1i32 = 32
+	s1i32 = 16
 	s0i32 = s0i32 + s1i32
 	ctx.g0 = s0i32
 	s0i32 = 1

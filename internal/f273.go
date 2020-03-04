@@ -46,7 +46,7 @@ func f273(ctx *Context, l0 int32, l1 int32) {
 	s1i32 = 20
 	s0i32 = s0i32 + s1i32
 	s1i32 = l1
-	f1186(ctx, s0i32, s1i32)
+	f1185(ctx, s0i32, s1i32)
 lbl0:
 	s0i32 = l0
 	s1i32 = l0

@@ -127,7 +127,7 @@ func f267(ctx *Context, l0 int32, l1 int32, l2 int32) {
 		} else {
 			s1i32 = s2i32
 		}
-		f1875(ctx, s0i32, s1i32)
+		f1876(ctx, s0i32, s1i32)
 		s0i32 = l1
 		s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+228)]))
 		l4 = s0i32

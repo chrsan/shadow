@@ -2,17 +2,18 @@ package internal
 
 import (
 	"math"
+	"unsafe"
 )
 
-func f371(ctx *Context, l0 float32) float32 {
-	var l1 int32
-	_ = l1
+func f371(ctx *Context, l0 float32, l1 int32) int32 {
 	var l2 int32
 	_ = l2
-	var l3 float32
+	var l3 int32
 	_ = l3
-	var l4 float32
+	var l4 int32
 	_ = l4
+	var l5 float64
+	_ = l5
 	var s0i32 int32
 	_ = s0i32
 	var s1i32 int32
@@ -21,196 +22,148 @@ func f371(ctx *Context, l0 float32) float32 {
 	_ = s2i32
 	var s3i32 int32
 	_ = s3i32
+	var s4i32 int32
+	_ = s4i32
 	var s0f32 float32
 	_ = s0f32
 	var s1f32 float32
 	_ = s1f32
 	var s2f32 float32
 	_ = s2f32
-	var s3f32 float32
-	_ = s3f32
-	var s4f32 float32
-	_ = s4f32
-	var s5f32 float32
-	_ = s5f32
-	var s6f32 float32
-	_ = s6f32
-	var s7f32 float32
-	_ = s7f32
+	var s0f64 float64
+	_ = s0f64
+	var s1f64 float64
+	_ = s1f64
+	var s2f64 float64
+	_ = s2f64
+	var s3f64 float64
+	_ = s3f64
+	s0i32 = ctx.g0
+	s1i32 = 16
+	s0i32 = s0i32 - s1i32
+	l3 = s0i32
+	ctx.g0 = s0i32
 	s0f32 = l0
 	s0i32 = int32(math.Float32bits(s0f32))
-	l1 = s0i32
-	s1i32 = 8388608
+	l4 = s0i32
+	s1i32 = 2147483647
+	s0i32 = s0i32 & s1i32
+	l2 = s0i32
+	s1i32 = 1305022426
+	if uint32(s0i32) <= uint32(s1i32) {
+		s0i32 = 1
+	} else {
+		s0i32 = 0
+	}
+	if s0i32 != 0 {
+		s0i32 = l1
+		s1f32 = l0
+		s1f64 = float64(s1f32)
+		l5 = s1f64
+		s2f64 = l5
+		s3f64 = 0.6366197723675814
+		s2f64 = s2f64 * s3f64
+		s3f64 = 6.755399441055744e+15
+		s2f64 = s2f64 + s3f64
+		s3f64 = -6.755399441055744e+15
+		s2f64 = s2f64 + s3f64
+		l5 = s2f64
+		s3f64 = -1.5707963109016418
+		s2f64 = s2f64 * s3f64
+		s1f64 = s1f64 + s2f64
+		s2f64 = l5
+		s3f64 = -1.5893254773528196e-08
+		s2f64 = s2f64 * s3f64
+		s1f64 = s1f64 + s2f64
+		*(*float64)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = s1f64
+		s0f64 = l5
+		s0f64 = math.Abs(s0f64)
+		s1f64 = 2.147483648e+09
+		if s0f64 < s1f64 {
+			s0i32 = 1
+		} else {
+			s0i32 = 0
+		}
+		if s0i32 != 0 {
+			s0f64 = l5
+			s0i32 = int32(math.Trunc(s0f64))
+			l2 = s0i32
+			goto lbl0
+		}
+		s0i32 = -2147483648
+		l2 = s0i32
+		goto lbl0
+	}
+	s0i32 = l2
+	s1i32 = 2139095040
 	if uint32(s0i32) >= uint32(s1i32) {
 		s0i32 = 1
 	} else {
 		s0i32 = 0
 	}
-	s1i32 = 0
-	s2i32 = l1
-	s3i32 = -1
-	if s2i32 > s3i32 {
-		s2i32 = 1
-	} else {
-		s2i32 = 0
-	}
-	if s2i32 != 0 {
-		// s0i32 = s0i32
-	} else {
-		s0i32 = s1i32
-	}
-	if s0i32 == 0 {
-		s0i32 = 1
-	} else {
-		s0i32 = 0
-	}
 	if s0i32 != 0 {
 		s0i32 = l1
-		s1i32 = 2147483647
-		s0i32 = s0i32 & s1i32
-		if s0i32 == 0 {
-			s0i32 = 1
-		} else {
-			s0i32 = 0
-		}
-		if s0i32 != 0 {
-			s0f32 = -1
-			s1f32 = l0
-			s2f32 = l0
-			s1f32 = s1f32 * s2f32
-			s0f32 = s0f32 / s1f32
-			return s0f32
-		}
-		s0i32 = l1
-		s1i32 = -1
-		if s0i32 <= s1i32 {
-			s0i32 = 1
-		} else {
-			s0i32 = 0
-		}
-		if s0i32 != 0 {
-			s0f32 = l0
-			s1f32 = l0
-			s0f32 = s0f32 - s1f32
-			s1f32 = 0
-			s0f32 = s0f32 / s1f32
-			return s0f32
-		}
-		s0f32 = l0
-		s1f32 = 3.3554432e+07
-		s0f32 = s0f32 * s1f32
-		s0i32 = int32(math.Float32bits(s0f32))
-		l1 = s0i32
-		s0i32 = -152
+		s1f32 = l0
+		s2f32 = l0
+		s1f32 = s1f32 - s2f32
+		s1f64 = float64(s1f32)
+		*(*float64)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = s1f64
+		s0i32 = 0
 		l2 = s0i32
-		goto lbl1
-	}
-	s0i32 = l1
-	s1i32 = 2139095039
-	if uint32(s0i32) > uint32(s1i32) {
-		s0i32 = 1
-	} else {
-		s0i32 = 0
-	}
-	if s0i32 != 0 {
 		goto lbl0
 	}
-	s0i32 = -127
-	l2 = s0i32
-	s0f32 = 0
-	l0 = s0f32
-	s0i32 = l1
-	s1i32 = 1065353216
-	if s0i32 == s1i32 {
-		s0i32 = 1
-	} else {
-		s0i32 = 0
-	}
-	if s0i32 != 0 {
-		goto lbl0
-	}
-lbl1:
-	s0i32 = l1
-	s1i32 = 4913933
-	s0i32 = s0i32 + s1i32
-	l1 = s0i32
-	s1i32 = 8388607
-	s0i32 = s0i32 & s1i32
-	s1i32 = 1060439283
-	s0i32 = s0i32 + s1i32
-	s0f32 = math.Float32frombits(uint32(s0i32))
-	s1f32 = -1
-	s0f32 = s0f32 + s1f32
-	l0 = s0f32
-	s1f32 = l0
-	s2f32 = l0
-	s3f32 = 0.5
-	s2f32 = s2f32 * s3f32
-	s1f32 = s1f32 * s2f32
-	l3 = s1f32
-	s0f32 = s0f32 - s1f32
-	s0i32 = int32(math.Float32bits(s0f32))
-	s1i32 = -4096
-	s0i32 = s0i32 & s1i32
-	s0f32 = math.Float32frombits(uint32(s0i32))
-	l4 = s0f32
-	s1f32 = 1.4428711
-	s0f32 = s0f32 * s1f32
-	s1f32 = l0
-	s2f32 = l4
-	s1f32 = s1f32 - s2f32
-	s2f32 = l3
-	s1f32 = s1f32 - s2f32
-	s2f32 = l0
-	s3f32 = l0
-	s4f32 = 2
-	s3f32 = s3f32 + s4f32
-	s2f32 = s2f32 / s3f32
-	l0 = s2f32
-	s3f32 = l3
-	s4f32 = l0
-	s5f32 = l0
-	s4f32 = s4f32 * s5f32
-	l0 = s4f32
-	s5f32 = l0
-	s6f32 = l0
-	s5f32 = s5f32 * s6f32
-	l0 = s5f32
-	s6f32 = 0.28498787
-	s5f32 = s5f32 * s6f32
-	s6f32 = 0.6666666
-	s5f32 = s5f32 + s6f32
-	s4f32 = s4f32 * s5f32
-	s5f32 = l0
-	s6f32 = l0
-	s7f32 = 0.24279079
-	s6f32 = s6f32 * s7f32
-	s7f32 = 0.40000972
-	s6f32 = s6f32 + s7f32
-	s5f32 = s5f32 * s6f32
-	s4f32 = s4f32 + s5f32
-	s3f32 = s3f32 + s4f32
-	s2f32 = s2f32 * s3f32
-	s1f32 = s1f32 + s2f32
-	l0 = s1f32
-	s2f32 = 1.4428711
-	s1f32 = s1f32 * s2f32
-	s2f32 = l0
-	s3f32 = l4
-	s2f32 = s2f32 + s3f32
-	s3f32 = -0.00017605285
-	s2f32 = s2f32 * s3f32
-	s1f32 = s1f32 + s2f32
-	s0f32 = s0f32 + s1f32
+	s0i32 = l3
 	s1i32 = l2
-	s2i32 = l1
+	s2i32 = l2
 	s3i32 = 23
 	s2i32 = int32(uint32(s2i32) >> (uint32(s3i32) & 31))
-	s1i32 = s1i32 + s2i32
-	s1f32 = float32(s1i32)
-	s0f32 = s0f32 + s1f32
-	l0 = s0f32
+	s3i32 = -150
+	s2i32 = s2i32 + s3i32
+	l2 = s2i32
+	s3i32 = 23
+	s2i32 = s2i32 << (uint32(s3i32) & 31)
+	s1i32 = s1i32 - s2i32
+	s1f32 = math.Float32frombits(uint32(s1i32))
+	s1f64 = float64(s1f32)
+	*(*float64)(unsafe.Pointer(&ctx.Mem[int(s0i32+8)])) = s1f64
+	s0i32 = l3
+	s1i32 = 8
+	s0i32 = s0i32 + s1i32
+	s1i32 = l3
+	s2i32 = l2
+	s3i32 = 1
+	s4i32 = 0
+	s0i32 = f538(ctx, s0i32, s1i32, s2i32, s3i32, s4i32)
+	l2 = s0i32
+	s0i32 = l3
+	s0f64 = *(*float64)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)]))
+	l5 = s0f64
+	s0i32 = l4
+	s1i32 = -1
+	if s0i32 <= s1i32 {
+		s0i32 = 1
+	} else {
+		s0i32 = 0
+	}
+	if s0i32 != 0 {
+		s0i32 = l1
+		s1f64 = l5
+		s1f64 = -s1f64
+		*(*float64)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = s1f64
+		s0i32 = 0
+		s1i32 = l2
+		s0i32 = s0i32 - s1i32
+		l2 = s0i32
+		goto lbl0
+	}
+	s0i32 = l1
+	s1f64 = l5
+	*(*float64)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = s1f64
 lbl0:
-	s0f32 = l0
-	return s0f32
+	s0i32 = l3
+	s1i32 = 16
+	s0i32 = s0i32 + s1i32
+	ctx.g0 = s0i32
+	s0i32 = l2
+	return s0i32
 }

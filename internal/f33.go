@@ -31,7 +31,7 @@ func f33(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) int32 {
 		s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)]))
 		s1i32 = l2
 		s2i32 = l3
-		f2082(ctx, s0i32, s1i32, s2i32)
+		f2081(ctx, s0i32, s1i32, s2i32)
 		goto lbl0
 	}
 	s0i32 = 92
@@ -80,7 +80,7 @@ func f33(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) int32 {
 	s1i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s1i32+0)]))
 	s2i32 = l2
 	s3i32 = l3
-	f2081(ctx, s0i32, s1i32, s2i32, s3i32)
+	f2080(ctx, s0i32, s1i32, s2i32, s3i32)
 	s0i32 = l1
 	s1i32 = l4
 	f328(ctx, s0i32, s1i32)

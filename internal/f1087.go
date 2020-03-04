@@ -64,14 +64,14 @@ func f1087(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 in
 		s1i32 = 120
 		s0i32 = s0i32 + s1i32
 		s1i32 = l1
-		f1710(ctx, s0i32, s1i32)
+		f1711(ctx, s0i32, s1i32)
 		s0i32 = l7
 		s1i32 = 24
 		s0i32 = s0i32 + s1i32
 		s1i32 = l7
 		s2i32 = 120
 		s1i32 = s1i32 + s2i32
-		s0i32 = f1709(ctx, s0i32, s1i32)
+		s0i32 = f1710(ctx, s0i32, s1i32)
 		l8 = s0i32
 		s0i32 = l7
 		s1i32 = l2
@@ -86,7 +86,7 @@ func f1087(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 in
 		s0i32 = s0i32 + s1i32
 		s1i32 = l8
 		s2i32 = l7
-		f1708(ctx, s0i32, s1i32, s2i32)
+		f1709(ctx, s0i32, s1i32, s2i32)
 		s0i32 = l7
 		s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+20)]))
 		l9 = s0i32
@@ -257,7 +257,7 @@ func f1087(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 in
 		s5i32 = l7
 		s6i32 = 280
 		s5i32 = s5i32 + s6i32
-		f355(ctx, s0i32, s1i32, s2i32, s3i32, s4i32, s5i32)
+		f354(ctx, s0i32, s1i32, s2i32, s3i32, s4i32, s5i32)
 	lbl3:
 		s0i32 = l8
 		s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+88)]))

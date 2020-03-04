@@ -207,7 +207,7 @@ func f107(ctx *Context, l0 float32) float32 {
 	s1i32 = l2
 	s2i32 = 8
 	s1i32 = s1i32 + s2i32
-	s0i32 = f372(ctx, s0f32, s1i32)
+	s0i32 = f371(ctx, s0f32, s1i32)
 	s1i32 = 3
 	s0i32 = s0i32 & s1i32
 	l1 = s0i32

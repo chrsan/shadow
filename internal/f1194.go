@@ -10,7 +10,7 @@ func f1194(ctx *Context, l0 int32) int32 {
 	var s1i32 int32
 	_ = s1i32
 	s0i32 = l0
-	s1i32 = -76
+	s1i32 = -84
 	s0i32 = s0i32 + s1i32
 	l0 = s0i32
 	s1i32 = l0

@@ -18,7 +18,7 @@ func f1726(ctx *Context, l0 int32, l1 int32, l2 int32) {
 	s0i32 = s0i32 + s1i32
 	s1i32 = l1
 	s2i32 = l2
-	s0i32 = f648(ctx, s0i32, s1i32, s2i32)
+	s0i32 = f649(ctx, s0i32, s1i32, s2i32)
 	l1 = s0i32
 	if s0i32 != 0 {
 		s0i32 = l0

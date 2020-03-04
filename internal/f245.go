@@ -118,7 +118,7 @@ func f245(ctx *Context, l0 int32, l1 int32) {
 		}
 		s0i32 = l0
 		s1i32 = l1
-		s0i32 = f361(ctx, s0i32, s1i32)
+		s0i32 = f360(ctx, s0i32, s1i32)
 		goto lbl17
 	}
 	s0i32 = l1
@@ -240,7 +240,7 @@ lbl22:
 	s1i32 = 256
 	s0i32 = s0i32 + s1i32
 	s1i32 = l1
-	s0i32 = f429(ctx, s0i32, s1i32)
+	s0i32 = f428(ctx, s0i32, s1i32)
 	l13 = s0i32
 	s0i32 = int32(ctx.Mem[int(s0i32+24)])
 	if s0i32 == 0 {
@@ -827,7 +827,7 @@ lbl22:
 		s0i32 = s0i32 - s1i32
 		l5 = s0i32
 		s0i32 = l13
-		f428(ctx, s0i32)
+		f427(ctx, s0i32)
 		s0i32 = l13
 		s0i32 = int32(ctx.Mem[int(s0i32+24)])
 		if s0i32 == 0 {

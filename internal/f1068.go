@@ -358,7 +358,7 @@ func f1068(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 in
 		s1i32 = l6
 		s2i32 = 8
 		s1i32 = s1i32 + s2i32
-		f430(ctx, s0i32, s1i32)
+		f429(ctx, s0i32, s1i32)
 		s0i32 = l4
 		s1i32 = 1
 		s0i32 = s0i32 + s1i32
@@ -631,7 +631,7 @@ lbl12:
 	s1i32 = l6
 	s2i32 = 8
 	s1i32 = s1i32 + s2i32
-	f430(ctx, s0i32, s1i32)
+	f429(ctx, s0i32, s1i32)
 	s0i32 = l5
 	s1i32 = 1
 	s0i32 = s0i32 + s1i32

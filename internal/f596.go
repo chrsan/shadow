@@ -4,21 +4,13 @@ import (
 	"unsafe"
 )
 
-func f596(ctx *Context, l0 int32, l1 int32) {
+func f596(ctx *Context, l0 int32, l1 int32) int32 {
 	var l2 int32
 	_ = l2
 	var l3 int32
 	_ = l3
 	var l4 int32
 	_ = l4
-	var l5 int32
-	_ = l5
-	var l6 int32
-	_ = l6
-	var l7 int32
-	_ = l7
-	var l8 int32
-	_ = l8
 	var s0i32 int32
 	_ = s0i32
 	var s1i32 int32
@@ -29,159 +21,162 @@ func f596(ctx *Context, l0 int32, l1 int32) {
 	_ = s3i32
 	var s4i32 int32
 	_ = s4i32
-	s0i32 = l0
-	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+8)]))
-	l3 = s0i32
-	s1i32 = l0
-	s1i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s1i32+4)]))
-	l2 = s1i32
+	var s5i32 int32
+	_ = s5i32
+	var s6i32 int32
+	_ = s6i32
+	var s7i32 int32
+	_ = s7i32
+	var s8i32 int32
+	_ = s8i32
+	var s9i32 int32
+	_ = s9i32
+	var s1i64 int64
+	_ = s1i64
+	s0i32 = ctx.g0
+	s1i32 = 16
 	s0i32 = s0i32 - s1i32
-	s1i32 = 2
-	s0i32 = s0i32 >> (uint32(s1i32) & 31)
-	s1i32 = l1
-	if uint32(s0i32) >= uint32(s1i32) {
-		s0i32 = 1
-	} else {
-		s0i32 = 0
-	}
-	if s0i32 != 0 {
-		s0i32 = l0
-		s1i32 = l2
-		s2i32 = 0
-		s3i32 = l1
-		s4i32 = 2
-		s3i32 = s3i32 << (uint32(s4i32) & 31)
-		l0 = s3i32
-		s1i32 = f27(ctx, s1i32, s2i32, s3i32)
-		s2i32 = l0
-		s1i32 = s1i32 + s2i32
-		*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+4)])) = uint32(s1i32)
-		return
-	}
-	s0i32 = l2
+	l3 = s0i32
+	ctx.g0 = s0i32
+	s0i32 = 0
 	s1i32 = l0
 	s1i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s1i32+0)]))
+	s1i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s1i32+20)]))
+	s2i32 = -1
+	s1i32 = s1i32 + s2i32
 	l4 = s1i32
-	s0i32 = s0i32 - s1i32
-	l6 = s0i32
-	s1i32 = 2
-	s0i32 = s0i32 >> (uint32(s1i32) & 31)
-	l7 = s0i32
-	s1i32 = l1
-	s0i32 = s0i32 + s1i32
-	l5 = s0i32
-	s1i32 = 1073741824
-	if uint32(s0i32) < uint32(s1i32) {
-		s0i32 = 1
-	} else {
-		s0i32 = 0
-	}
-	if s0i32 != 0 {
-		s0i32 = 0
-		l2 = s0i32
-		s0i32 = l5
-		s1i32 = l3
-		s2i32 = l4
-		s1i32 = s1i32 - s2i32
-		l3 = s1i32
-		s2i32 = 1
-		s1i32 = s1i32 >> (uint32(s2i32) & 31)
-		l8 = s1i32
-		s2i32 = l8
-		s3i32 = l5
-		if uint32(s2i32) < uint32(s3i32) {
-			s2i32 = 1
-		} else {
-			s2i32 = 0
-		}
-		if s2i32 != 0 {
-			// s0i32 = s0i32
-		} else {
-			s0i32 = s1i32
-		}
-		s1i32 = 1073741823
-		s2i32 = l3
-		s3i32 = 2
-		s2i32 = s2i32 >> (uint32(s3i32) & 31)
-		s3i32 = 536870911
-		if uint32(s2i32) < uint32(s3i32) {
-			s2i32 = 1
-		} else {
-			s2i32 = 0
-		}
-		if s2i32 != 0 {
-			// s0i32 = s0i32
-		} else {
-			s0i32 = s1i32
-		}
-		l3 = s0i32
-		if s0i32 != 0 {
-			s0i32 = l3
-			s1i32 = 1073741824
-			if uint32(s0i32) >= uint32(s1i32) {
-				s0i32 = 1
-			} else {
-				s0i32 = 0
-			}
-			if s0i32 != 0 {
-				goto lbl1
-			}
-			s0i32 = l3
-			s1i32 = 2
-			s0i32 = s0i32 << (uint32(s1i32) & 31)
-			s0i32 = f17(ctx, s0i32)
-			l2 = s0i32
-		}
-		s0i32 = l7
-		s1i32 = 2
-		s0i32 = s0i32 << (uint32(s1i32) & 31)
-		s1i32 = l2
-		s0i32 = s0i32 + s1i32
-		s1i32 = 0
-		s2i32 = l1
-		s3i32 = 2
-		s2i32 = s2i32 << (uint32(s3i32) & 31)
-		s0i32 = f27(ctx, s0i32, s1i32, s2i32)
-		s0i32 = l6
+	s2i32 = 3
+	if uint32(s1i32) > uint32(s2i32) {
 		s1i32 = 1
-		if s0i32 >= s1i32 {
-			s0i32 = 1
-		} else {
-			s0i32 = 0
-		}
-		if s0i32 != 0 {
-			s0i32 = l2
-			s1i32 = l4
-			s2i32 = l6
-			s0i32 = f22(ctx, s0i32, s1i32, s2i32)
-		}
-		s0i32 = l0
-		s1i32 = l2
-		s2i32 = l3
-		s3i32 = 2
-		s2i32 = s2i32 << (uint32(s3i32) & 31)
-		s1i32 = s1i32 + s2i32
-		*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+8)])) = uint32(s1i32)
-		s0i32 = l0
-		s1i32 = l2
-		s2i32 = l5
-		s3i32 = 2
-		s2i32 = s2i32 << (uint32(s3i32) & 31)
-		s1i32 = s1i32 + s2i32
-		*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+4)])) = uint32(s1i32)
-		s0i32 = l0
-		s1i32 = l2
-		*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = uint32(s1i32)
-		s0i32 = l4
-		if s0i32 != 0 {
-			s0i32 = l4
-			f12(ctx, s0i32)
-		}
-		return
+	} else {
+		s1i32 = 0
 	}
-	f104(ctx)
-	panic("unreachable executed")
+	if s1i32 != 0 {
+		goto lbl0
+	}
+	s0i32 = l0
+	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+4)]))
+	l2 = s0i32
+	s0i32 = l4
+	s1i32 = 1
+	s0i32 = s0i32 - s1i32
+	switch s0i32 {
+	case 0:
+		goto lbl3
+	case 1:
+		goto lbl2
+	case 2:
+		goto lbl3
+	default:
+		goto lbl4
+	}
+lbl4:
+	s0i32 = l1
+	s1i32 = l2
+	s2i32 = 8
+	s3i32 = l2
+	s4i32 = 11
+	s5i32 = -1
+	s6i32 = -1
+	s7i32 = -1
+	s8i32 = l2
+	s9i32 = 0
+	s8i32 = f191(ctx, s8i32, s9i32)
+	s9i32 = 0
+	s3i32 = f21(ctx, s3i32, s4i32, s5i32, s6i32, s7i32, s8i32, s9i32)
+	s1i32 = f96(ctx, s1i32, s2i32, s3i32)
+	l0 = s1i32
+	*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+8)])) = uint32(s1i32)
+	s0i32 = l1
+	s1i32 = l0
+	*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+12)])) = uint32(s1i32)
+	s0i32 = l1
+	s1i32 = l0
+	*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+4)])) = uint32(s1i32)
+	s0i32 = l1
+	s1i32 = l0
+	*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = uint32(s1i32)
+	goto lbl1
+lbl3:
+	s0i32 = l1
+	s1i32 = l2
+	s2i32 = 8
+	s3i32 = l2
+	s4i32 = l2
+	s5i32 = 1
+	s4i32 = f191(ctx, s4i32, s5i32)
+	s3i32 = f397(ctx, s3i32, s4i32)
+	s1i32 = f96(ctx, s1i32, s2i32, s3i32)
+	l0 = s1i32
+	*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+8)])) = uint32(s1i32)
+	s0i32 = l1
+	s1i32 = l0
+	*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+12)])) = uint32(s1i32)
+	s0i32 = l1
+	s1i32 = l0
+	*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+4)])) = uint32(s1i32)
+	s0i32 = l1
+	s1i32 = l0
+	*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = uint32(s1i32)
+	s0i32 = 1
+	goto lbl0
+lbl2:
+	s0i32 = l3
+	s1i32 = l2
+	s2i32 = l2
+	s3i32 = l2
+	s4i32 = 2
+	s3i32 = f191(ctx, s3i32, s4i32)
+	s2i32 = f607(ctx, s2i32, s3i32)
+	f396(ctx, s0i32, s1i32, s2i32)
+	s0i32 = l1
+	s1i32 = l3
+	s1i64 = *(*int64)(unsafe.Pointer(&ctx.Mem[int(s1i32+8)]))
+	*(*uint64)(unsafe.Pointer(&ctx.Mem[int(s0i32+8)])) = uint64(s1i64)
+	s0i32 = l1
+	s1i32 = l3
+	s1i64 = *(*int64)(unsafe.Pointer(&ctx.Mem[int(s1i32+0)]))
+	*(*uint64)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = uint64(s1i64)
+	s0i32 = l1
+	s1i32 = l2
+	s2i32 = l2
+	s3i32 = l0
+	s3i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s3i32+8)]))
+	s3i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s3i32+12)]))
+	s4i32 = l0
+	s4i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s4i32+12)]))
+	s4i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s4i32+12)]))
+	s2i32 = f1650(ctx, s2i32, s3i32, s4i32)
+	s3i32 = l2
+	s4i32 = l1
+	s4i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s4i32+0)]))
+	s5i32 = l2
+	s6i32 = l1
+	s6i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s6i32+4)]))
+	s7i32 = l1
+	s7i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s7i32+8)]))
+	s5i32 = f53(ctx, s5i32, s6i32, s7i32)
+	s3i32 = f53(ctx, s3i32, s4i32, s5i32)
+	s4i32 = l2
+	s5i32 = l1
+	s5i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s5i32+0)]))
+	s6i32 = l2
+	s7i32 = l1
+	s7i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s7i32+4)]))
+	s8i32 = l1
+	s8i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s8i32+8)]))
+	s6i32 = f68(ctx, s6i32, s7i32, s8i32)
+	s4i32 = f68(ctx, s4i32, s5i32, s6i32)
+	s1i32 = f1648(ctx, s1i32, s2i32, s3i32, s4i32)
+	*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+12)])) = uint32(s1i32)
 lbl1:
-	f63(ctx)
-	panic("unreachable executed")
+	s0i32 = 1
+lbl0:
+	l0 = s0i32
+	s0i32 = l3
+	s1i32 = 16
+	s0i32 = s0i32 + s1i32
+	ctx.g0 = s0i32
+	s0i32 = l0
+	return s0i32
 }

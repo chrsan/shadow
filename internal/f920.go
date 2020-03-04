@@ -11,14 +11,10 @@ func f920(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 	_ = s1i32
 	var s2i32 int32
 	_ = s2i32
-	var s3i32 int32
-	_ = s3i32
-	var s4i32 int32
-	_ = s4i32
-	var s5i32 int32
-	_ = s5i32
 	var s6i32 int32
 	_ = s6i32
+	var s1f32 float32
+	_ = s1f32
 	var s2f32 float32
 	_ = s2f32
 	var s3f32 float32
@@ -28,17 +24,25 @@ func f920(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 	var s5f32 float32
 	_ = s5f32
 	s0i32 = l0
+	s1f32 = l5
+	*(*float32)(unsafe.Pointer(&ctx.Mem[int(s0i32+24)])) = s1f32
+	s0i32 = l0
+	s1f32 = l4
+	*(*float32)(unsafe.Pointer(&ctx.Mem[int(s0i32+20)])) = s1f32
+	s0i32 = l0
+	s1f32 = l3
+	*(*float32)(unsafe.Pointer(&ctx.Mem[int(s0i32+16)])) = s1f32
+	s0i32 = l0
+	s1f32 = l2
+	*(*float32)(unsafe.Pointer(&ctx.Mem[int(s0i32+12)])) = s1f32
+	s0i32 = l0
 	s1i32 = l1
 	s2i32 = 4
 	s1i32 = s1i32 + s2i32
-	s2i32 = l0
-	s2f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s2i32+12)]))
-	s3i32 = l0
-	s3f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s3i32+16)]))
-	s4i32 = l0
-	s4f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s4i32+20)]))
-	s5i32 = l0
-	s5f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s5i32+24)]))
+	s2f32 = l2
+	s3f32 = l3
+	s4f32 = l4
+	s5f32 = l5
 	s6i32 = l1
 	s6i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s6i32+0)]))
 	if int(s6i32) < 0 || int(s6i32) >= len(table) {

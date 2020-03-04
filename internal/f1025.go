@@ -75,7 +75,7 @@ func f1025(ctx *Context, l0 float32, l1 int32, l2 int32, l3 int32) int32 {
 	s2i32 = l4
 	s3i32 = 80
 	s2i32 = s2i32 + s3i32
-	s0i32 = f426(ctx, s0i32, s1i32, s2i32)
+	s0i32 = f425(ctx, s0i32, s1i32, s2i32)
 	if s0i32 != 0 {
 		s0i32 = l3
 		s1i32 = l4

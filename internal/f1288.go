@@ -229,7 +229,7 @@ lbl4:
 	s1i32 = l3
 	s2i32 = 16
 	s1i32 = s1i32 + s2i32
-	s1i32 = f38(ctx, s1i32)
+	s1i32 = f37(ctx, s1i32)
 	l1 = s1i32
 	f1894(ctx, s0i32, s1i32)
 	s0i32 = l1
@@ -263,7 +263,7 @@ lbl3:
 	s1i32 = 16
 	s0i32 = s0i32 + s1i32
 	s1i32 = l1
-	s0i32 = f429(ctx, s0i32, s1i32)
+	s0i32 = f428(ctx, s0i32, s1i32)
 	l1 = s0i32
 	s0i32 = int32(ctx.Mem[int(s0i32+24)])
 	if s0i32 != 0 {
@@ -307,7 +307,7 @@ lbl10:
 	}
 	(*(*func(*Context, int32, int32, int32))(table[s3i32].f()))(ctx, s0i32, s1i32, s2i32)
 	s0i32 = l1
-	f428(ctx, s0i32)
+	f427(ctx, s0i32)
 	s0i32 = l1
 	s0i32 = int32(ctx.Mem[int(s0i32+24)])
 	if s0i32 == 0 {

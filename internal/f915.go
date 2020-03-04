@@ -26,19 +26,13 @@ func f915(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 	var s5f32 float32
 	_ = s5f32
 	s0f32 = l4
-	s1f32 = 0
-	s0f32 = f15(ctx, s0f32, s1f32)
 	s1f32 = l5
-	s2f32 = 0
-	s1f32 = f15(ctx, s1f32, s2f32)
 	s2f32 = 1
 	s1f32 = f14(ctx, s1f32, s2f32)
 	l4 = s1f32
 	s0f32 = f14(ctx, s0f32, s1f32)
 	l5 = s0f32
 	s0f32 = l3
-	s1f32 = 0
-	s0f32 = f15(ctx, s0f32, s1f32)
 	s1f32 = l4
 	s0f32 = f14(ctx, s0f32, s1f32)
 	l3 = s0f32
@@ -47,8 +41,6 @@ func f915(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 	s2i32 = 4
 	s1i32 = s1i32 + s2i32
 	s2f32 = l2
-	s3f32 = 0
-	s2f32 = f15(ctx, s2f32, s3f32)
 	s3f32 = l4
 	s2f32 = f14(ctx, s2f32, s3f32)
 	s3f32 = l3

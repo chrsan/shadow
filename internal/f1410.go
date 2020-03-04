@@ -609,7 +609,7 @@ lbl12:
 	} else {
 		s4i32 = s5i32
 	}
-	s1i32 = f594(ctx, s1i32, s2i32, s3i32, s4i32)
+	s1i32 = f595(ctx, s1i32, s2i32, s3i32, s4i32)
 	l11 = s1i32
 	s1i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s1i32+0)]))
 	l9 = s1i32
@@ -676,7 +676,7 @@ lbl17:
 	s0i32 = l7
 	s1i32 = 2112
 	s0i32 = s0i32 + s1i32
-	f370(ctx, s0i32)
+	f369(ctx, s0i32)
 	s0i32 = l7
 	s1i64 = 4294967300
 	*(*uint64)(unsafe.Pointer(&ctx.Mem[int(s0i32+2132)])) = uint64(s1i64)
@@ -1981,7 +1981,7 @@ lbl30:
 	s0i32 = l7
 	s1i32 = 2112
 	s0i32 = s0i32 + s1i32
-	f370(ctx, s0i32)
+	f369(ctx, s0i32)
 	s0i32 = l7
 	s1i64 = l34
 	*(*uint64)(unsafe.Pointer(&ctx.Mem[int(s0i32+2100)])) = uint64(s1i64)
@@ -2070,7 +2070,7 @@ lbl32:
 lbl29:
 	s0i32 = l0
 	s1i32 = l11
-	f394(ctx, s0i32, s1i32)
+	f393(ctx, s0i32, s1i32)
 	s0i32 = l11
 	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+4)]))
 	l0 = s0i32

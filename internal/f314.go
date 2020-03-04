@@ -56,7 +56,7 @@ func f314(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 		s1i32 = l1
 		s2i32 = l2
 		s3i32 = l3
-		f416(ctx, s0i32, s1i32, s2i32, s3i32)
+		f415(ctx, s0i32, s1i32, s2i32, s3i32)
 		goto lbl0
 	}
 	s0i32 = l4
@@ -386,7 +386,7 @@ lbl8:
 	s1i32 = l1
 	s2i32 = l5
 	s3i32 = l3
-	f416(ctx, s0i32, s1i32, s2i32, s3i32)
+	f415(ctx, s0i32, s1i32, s2i32, s3i32)
 	s0i32 = l6
 	s1i32 = 20
 	s0i32 = s0i32 + s1i32

@@ -4,67 +4,82 @@ import (
 	"unsafe"
 )
 
-func f901(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, l5 float32) {
-	var l6 int32
-	_ = l6
+func f901(ctx *Context, l0 int32, l1 int32) {
+	var l2 int32
+	_ = l2
+	var l3 int32
+	_ = l3
+	var l4 int32
+	_ = l4
 	var s0i32 int32
 	_ = s0i32
 	var s1i32 int32
 	_ = s1i32
 	var s2i32 int32
 	_ = s2i32
-	var s5i32 int32
-	_ = s5i32
-	var s6i32 int32
-	_ = s6i32
-	var s7i32 int32
-	_ = s7i32
-	var s8i32 int32
-	_ = s8i32
-	var s2f32 float32
-	_ = s2f32
-	var s3f32 float32
-	_ = s3f32
-	var s4f32 float32
-	_ = s4f32
-	var s5f32 float32
-	_ = s5f32
-	var s6f32 float32
-	_ = s6f32
+	var s3i32 int32
+	_ = s3i32
+	var s1i64 int64
+	_ = s1i64
+	s0i32 = l1
+	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)]))
+	l2 = s0i32
+	if s0i32 == 0 {
+		s0i32 = 1
+	} else {
+		s0i32 = 0
+	}
+	if s0i32 != 0 {
+		goto lbl1
+	}
+	s0i32 = l2
+	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+16)]))
+	l3 = s0i32
+	if s0i32 == 0 {
+		s0i32 = 1
+	} else {
+		s0i32 = 0
+	}
+	if s0i32 != 0 {
+		goto lbl1
+	}
+	s0i32 = l1
+	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+8)]))
+	l2 = s0i32
+	if s0i32 != 0 {
+		goto lbl0
+	}
+lbl1:
+	s0i32 = l0
+	s1i64 = 0
+	*(*uint64)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = uint64(s1i64)
+	return
+lbl0:
+	s0i32 = l1
+	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+16)]))
+	s1i32 = 2
+	s0i32 = s0i32 << (uint32(s1i32) & 31)
+	s1i32 = 3392
+	s0i32 = s0i32 + s1i32
+	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)]))
+	l4 = s0i32
 	s0i32 = l0
 	s1i32 = l1
-	s2i32 = 8
-	s1i32 = s1i32 + s2i32
-	s2f32 = 0
-	s3f32 = 0
-	s4f32 = 0
-	s5i32 = l0
-	s5i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s5i32+0)]))
-	s6i32 = l1
-	s6i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s6i32+0)]))
-	l6 = s6i32
-	s6i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s6i32+0)]))
-	s7i32 = l6
-	s7i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s7i32+4)]))
-	s8i32 = l0
-	s8i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s8i32+4)]))
-	s7i32 = s7i32 * s8i32
-	s6i32 = s6i32 + s7i32
-	s5i32 = s5i32 + s6i32
-	s5i32 = int32(ctx.Mem[int(s5i32+0)])
-	s5f32 = float32(uint32(s5i32))
-	s6f32 = 0.003921569
-	s5f32 = s5f32 * s6f32
-	s6i32 = l1
-	s6i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s6i32+4)]))
-	if int(s6i32) < 0 || int(s6i32) >= len(table) {
-		panic("table entry out of bounds")
-	}
-	if table[s6i32].numParams == -1 {
-		panic("table entry is nil")
-	}
-	if table[s6i32].numParams != 6 {
-		panic("argument count mismatch")
-	}
-	(*(*func(*Context, int32, int32, float32, float32, float32, float32))(table[s6i32].f()))(ctx, s0i32, s1i32, s2f32, s3f32, s4f32, s5f32)
+	s1i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s1i32+4)]))
+	s2i32 = l3
+	s1i32 = s1i32 - s2i32
+	l1 = s1i32
+	s2i32 = l2
+	s1i32 = i32DivU(s1i32, s2i32)
+	l3 = s1i32
+	*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+4)])) = uint32(s1i32)
+	s0i32 = l0
+	s1i32 = l1
+	s2i32 = l2
+	s3i32 = l3
+	s2i32 = s2i32 * s3i32
+	s1i32 = s1i32 - s2i32
+	s2i32 = l4
+	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
+	*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = uint32(s1i32)
 }

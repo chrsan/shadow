@@ -50,7 +50,7 @@ func f317(ctx *Context, l0 int32, l1 int32, l2 int32) int32 {
 		} else {
 			s3i32 = 0
 		}
-		s0i32 = f1830(ctx, s0i32, s1i32, s2i32, s3i32)
+		s0i32 = f1831(ctx, s0i32, s1i32, s2i32, s3i32)
 		return s0i32
 	}
 	s0i32 = l0
@@ -63,6 +63,6 @@ func f317(ctx *Context, l0 int32, l1 int32, l2 int32) int32 {
 	} else {
 		s3i32 = 0
 	}
-	s0i32 = f1829(ctx, s0i32, s1i32, s2i32, s3i32)
+	s0i32 = f1830(ctx, s0i32, s1i32, s2i32, s3i32)
 	return s0i32
 }

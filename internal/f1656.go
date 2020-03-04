@@ -114,7 +114,7 @@ func f1656(ctx *Context, l0 int32, l1 int32, l2 int32) {
 		s1i32 = 9
 		s0i32 = s0i32 | s1i32
 		s1i32 = l2
-		s0i32 = f1707(ctx, s0i32, s1i32)
+		s0i32 = f1708(ctx, s0i32, s1i32)
 		s1i32 = 0
 		ctx.Mem[int(s0i32+0)] = uint8(s1i32)
 	}

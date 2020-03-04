@@ -166,5 +166,5 @@ func f302(ctx *Context, l0 int32, l1 int32, l2 int32) {
 	s0i32 = l0
 	s1i32 = l1
 	s2i32 = l2
-	f1647(ctx, s0i32, s1i32, s2i32)
+	f1646(ctx, s0i32, s1i32, s2i32)
 }

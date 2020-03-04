@@ -145,7 +145,7 @@ func f1136(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 	lbl4:
 		l5 = s1i32
 		s2i32 = l6
-		s0i32 = f1901(ctx, s0i32, s1i32, s2i32)
+		s0i32 = f1902(ctx, s0i32, s1i32, s2i32)
 		if s0i32 != 0 {
 			s0i32 = l3
 			s1i32 = l5

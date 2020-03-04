@@ -19,7 +19,7 @@ func f1864(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 	_ = s1i64
 	s0i32 = l0
 	s1i32 = l3
-	s1i32 = f1094(ctx, s1i32)
+	s1i32 = f1093(ctx, s1i32)
 	l3 = s1i32
 	s1i64 = *(*int64)(unsafe.Pointer(&ctx.Mem[int(s1i32+0)]))
 	*(*uint64)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = uint64(s1i64)

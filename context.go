@@ -26,10 +26,10 @@ func (c *Context) InverseMatrix(m Matrix) (Matrix, bool) {
 	sz := c.c.SkiaMatrixSize()
 	// Stack alloc two matrixes.
 	ptr := c.c.StackAlloc(sz * 2)
+	c.c.SkiaMatrixInit(ptr)
+	c.c.SkiaMatrixInit(ptr + sz)
 	// Set source matrix.
 	c.c.SkiaMatrixSet(ptr, m.ScaleX, m.SkewX, m.TransX, m.SkewY, m.ScaleY, m.TransY)
-	// Reset inv matrix.
-	c.c.SkiaMatrixReset(ptr + sz)
 	if c.c.SkiaMatrixCreateInverse(ptr, ptr+sz) == 0 {
 		return Matrix{}, false
 	}
@@ -76,7 +76,7 @@ func (c *Context) NewPaint() *Paint {
 func (c *Context) StackAllocPaint() (paint *Paint, dispose func()) {
 	st := c.c.StackSave()
 	ptr := c.c.StackAlloc(c.c.SkiaPaintSize())
-	c.c.SkiaPaintReset(ptr)
+	c.c.SkiaPaintInit(ptr)
 	paint = &Paint{c: c.c, ptr: ptr}
 	dispose = func() {
 		c.c.StackRestore(st)
@@ -95,7 +95,7 @@ func (c *Context) NewPath() *Path {
 func (c *Context) StackAllocPath() (path *Path, dispose func()) {
 	st := c.c.StackSave()
 	ptr := c.c.StackAlloc(c.c.SkiaPathSize())
-	c.c.SkiaPathReset(ptr)
+	c.c.SkiaPathInit(ptr)
 	path = &Path{c: c.c, ptr: ptr}
 	dispose = func() {
 		c.c.StackRestore(st)

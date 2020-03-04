@@ -69,7 +69,7 @@ func f552(ctx *Context, l0 int32, l1 int32, l2 int32, l3 float32) {
 		s0i32 = l2
 		s1f32 = l3
 		s2i32 = l1
-		s0f32 = f444(ctx, s0i32, s1f32, s2i32)
+		s0f32 = f443(ctx, s0i32, s1f32, s2i32)
 		l3 = s0f32
 	}
 	s0i32 = l1

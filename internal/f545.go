@@ -60,7 +60,7 @@ func f545(ctx *Context, l0 int32, l1 int32) {
 	lbl1:
 		s0i32 = l1
 		s1i32 = l0
-		f378(ctx, s0i32, s1i32)
+		f377(ctx, s0i32, s1i32)
 		return
 	}
 	s0i32 = l1
@@ -101,6 +101,6 @@ func f545(ctx *Context, l0 int32, l1 int32) {
 lbl3:
 	s0i32 = l1
 	s1i32 = l0
-	f378(ctx, s0i32, s1i32)
+	f377(ctx, s0i32, s1i32)
 lbl2:
 }

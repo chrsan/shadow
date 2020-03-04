@@ -284,7 +284,7 @@ lbl2:
 	s1i32 = 1
 	f201(ctx, s0i32, s1i32)
 	s0i32 = l1
-	f425(ctx, s0i32)
+	f424(ctx, s0i32)
 	s0i32 = l6
 	s1i32 = -64
 	s0i32 = s0i32 - s1i32

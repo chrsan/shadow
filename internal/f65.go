@@ -15,7 +15,7 @@ func f65(ctx *Context, l0 int32) int32 {
 	if s0i32 != 0 {
 		s0i32 = 0
 		s1i32 = l0
-		s1i32 = f354(ctx, s1i32)
+		s1i32 = f353(ctx, s1i32)
 		if s1i32 == 0 {
 			s1i32 = 1
 		} else {

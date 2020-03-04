@@ -29,7 +29,7 @@ func f1752(ctx *Context, l0 int32, l1 int32, l2 int32) {
 	l3 = s0i32
 	ctx.g0 = s0i32
 	s0i32 = l1
-	s0i32 = f1559(ctx, s0i32)
+	s0i32 = f1560(ctx, s0i32)
 	if s0i32 == 0 {
 		s0i32 = 1
 	} else {

@@ -101,7 +101,7 @@ func f1511(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) int32 {
 		s0i32 = l0
 		s1i32 = 28
 		s0i32 = s0i32 + s1i32
-		s0i32 = f958(ctx, s0i32)
+		s0i32 = f956(ctx, s0i32)
 		s1i32 = 3
 		if s0i32 == s1i32 {
 			s0i32 = 1

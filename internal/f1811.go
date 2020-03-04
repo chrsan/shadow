@@ -4,15 +4,44 @@ import (
 	"unsafe"
 )
 
-func f1811(ctx *Context, l0 int32, l1 int32) int32 {
+func f1811(ctx *Context, l0 int32) {
+	var l1 int32
+	_ = l1
 	var s0i32 int32
 	_ = s0i32
-	s0i32 = l1
-	if s0i32 != 0 {
-		s0i32 = l0
-		s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+12)]))
-	} else {
-		s0i32 = l0
+	var s1i32 int32
+	_ = s1i32
+	var s2i32 int32
+	_ = s2i32
+	var s3i32 int32
+	_ = s3i32
+	s0i32 = l0
+	s1i32 = 24276
+	*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = uint32(s1i32)
+	s0i32 = l0
+	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+12)]))
+	l1 = s0i32
+	s1i32 = l0
+	s2i32 = 16
+	s1i32 = s1i32 + s2i32
+	s2i32 = l0
+	s3i32 = 44
+	s2i32 = s2i32 + s3i32
+	s3i32 = l1
+	s3i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s3i32+0)]))
+	s3i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s3i32+28)]))
+	if int(s3i32) < 0 || int(s3i32) >= len(table) {
+		panic("table entry out of bounds")
 	}
-	return s0i32
+	if table[s3i32].numParams == -1 {
+		panic("table entry is nil")
+	}
+	if table[s3i32].numParams != 3 {
+		panic("argument count mismatch")
+	}
+	(*(*func(*Context, int32, int32, int32))(table[s3i32].f()))(ctx, s0i32, s1i32, s2i32)
+	s0i32 = l0
+	s0i32 = f35(ctx, s0i32)
+	s0i32 = l0
+	f12(ctx, s0i32)
 }

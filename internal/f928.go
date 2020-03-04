@@ -26,7 +26,7 @@ func f928(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) {
 		goto lbl0
 	}
 	s0i32 = l2
-	s1i32 = 3
+	s1i32 = 7
 	if s0i32 > s1i32 {
 		s0i32 = 1
 	} else {
@@ -35,33 +35,45 @@ func f928(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) {
 	if s0i32 != 0 {
 	lbl2:
 		s0i32 = l2
-		l5 = s0i32
-		s0i32 = l0
 		l6 = s0i32
-	lbl3:
-		s0i32 = l6
-		s1i32 = l1
-		*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+12)])) = uint32(s1i32)
-		s0i32 = l6
-		s1i32 = l1
-		*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+8)])) = uint32(s1i32)
-		s0i32 = l6
-		s1i32 = l1
-		*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+4)])) = uint32(s1i32)
-		s0i32 = l6
-		s1i32 = l1
-		*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = uint32(s1i32)
-		s0i32 = l5
-		l7 = s0i32
-		s1i32 = -4
-		s0i32 = s0i32 + s1i32
+		s0i32 = l0
 		l5 = s0i32
+	lbl3:
+		s0i32 = l5
+		s1i32 = l1
+		*(*uint16)(unsafe.Pointer(&ctx.Mem[int(s0i32+14)])) = uint16(s1i32)
+		s0i32 = l5
+		s1i32 = l1
+		*(*uint16)(unsafe.Pointer(&ctx.Mem[int(s0i32+12)])) = uint16(s1i32)
+		s0i32 = l5
+		s1i32 = l1
+		*(*uint16)(unsafe.Pointer(&ctx.Mem[int(s0i32+10)])) = uint16(s1i32)
+		s0i32 = l5
+		s1i32 = l1
+		*(*uint16)(unsafe.Pointer(&ctx.Mem[int(s0i32+8)])) = uint16(s1i32)
+		s0i32 = l5
+		s1i32 = l1
+		*(*uint16)(unsafe.Pointer(&ctx.Mem[int(s0i32+6)])) = uint16(s1i32)
+		s0i32 = l5
+		s1i32 = l1
+		*(*uint16)(unsafe.Pointer(&ctx.Mem[int(s0i32+4)])) = uint16(s1i32)
+		s0i32 = l5
+		s1i32 = l1
+		*(*uint16)(unsafe.Pointer(&ctx.Mem[int(s0i32+2)])) = uint16(s1i32)
+		s0i32 = l5
+		s1i32 = l1
+		*(*uint16)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = uint16(s1i32)
 		s0i32 = l6
+		l7 = s0i32
+		s1i32 = -8
+		s0i32 = s0i32 + s1i32
+		l6 = s0i32
+		s0i32 = l5
 		s1i32 = 16
 		s0i32 = s0i32 + s1i32
-		l6 = s0i32
+		l5 = s0i32
 		s0i32 = l7
-		s1i32 = 7
+		s1i32 = 15
 		if s0i32 > s1i32 {
 			s0i32 = 1
 		} else {
@@ -71,7 +83,7 @@ func f928(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) {
 			goto lbl3
 		}
 		s0i32 = l7
-		s1i32 = 4
+		s1i32 = 8
 		if s0i32 > s1i32 {
 			s0i32 = 1
 		} else {
@@ -79,14 +91,14 @@ func f928(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) {
 		}
 		if s0i32 != 0 {
 		lbl5:
-			s0i32 = l6
-			s1i32 = l1
-			*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = uint32(s1i32)
-			s0i32 = l6
-			s1i32 = 4
-			s0i32 = s0i32 + s1i32
-			l6 = s0i32
 			s0i32 = l5
+			s1i32 = l1
+			*(*uint16)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = uint16(s1i32)
+			s0i32 = l5
+			s1i32 = 2
+			s0i32 = s0i32 + s1i32
+			l5 = s0i32
+			s0i32 = l6
 			s1i32 = 1
 			if s0i32 > s1i32 {
 				s0i32 = 1
@@ -94,17 +106,17 @@ func f928(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) {
 				s0i32 = 0
 			}
 			l7 = s0i32
-			s0i32 = l5
+			s0i32 = l6
 			s1i32 = -1
 			s0i32 = s0i32 + s1i32
-			l5 = s0i32
+			l6 = s0i32
 			s0i32 = l7
 			if s0i32 != 0 {
 				goto lbl5
 			}
 		}
 		s0i32 = l4
-		l5 = s0i32
+		l6 = s0i32
 		s1i32 = -1
 		s0i32 = s0i32 + s1i32
 		l4 = s0i32
@@ -112,7 +124,7 @@ func f928(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) {
 		s1i32 = l3
 		s0i32 = s0i32 + s1i32
 		l0 = s0i32
-		s0i32 = l5
+		s0i32 = l6
 		s1i32 = 1
 		if s0i32 > s1i32 {
 			s0i32 = 1
@@ -138,18 +150,18 @@ func f928(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) {
 	}
 lbl6:
 	s0i32 = l2
-	l6 = s0i32
+	l5 = s0i32
 	s0i32 = l0
-	l5 = s0i32
+	l6 = s0i32
 lbl7:
-	s0i32 = l5
-	s1i32 = l1
-	*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = uint32(s1i32)
-	s0i32 = l5
-	s1i32 = 4
-	s0i32 = s0i32 + s1i32
-	l5 = s0i32
 	s0i32 = l6
+	s1i32 = l1
+	*(*uint16)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = uint16(s1i32)
+	s0i32 = l6
+	s1i32 = 2
+	s0i32 = s0i32 + s1i32
+	l6 = s0i32
+	s0i32 = l5
 	s1i32 = 1
 	if s0i32 > s1i32 {
 		s0i32 = 1
@@ -157,10 +169,10 @@ lbl7:
 		s0i32 = 0
 	}
 	l7 = s0i32
-	s0i32 = l6
+	s0i32 = l5
 	s1i32 = -1
 	s0i32 = s0i32 + s1i32
-	l6 = s0i32
+	l5 = s0i32
 	s0i32 = l7
 	if s0i32 != 0 {
 		goto lbl7
@@ -176,12 +188,12 @@ lbl7:
 	} else {
 		s0i32 = 0
 	}
-	l5 = s0i32
+	l6 = s0i32
 	s0i32 = l4
 	s1i32 = -1
 	s0i32 = s0i32 + s1i32
 	l4 = s0i32
-	s0i32 = l5
+	s0i32 = l6
 	if s0i32 != 0 {
 		goto lbl6
 	}

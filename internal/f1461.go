@@ -82,7 +82,7 @@ func f1461(ctx *Context, l0 int32, l1 int32) int32 {
 	s2i32 = l0
 	s3i32 = l1
 	s4i32 = l2
-	s2i32 = f579(ctx, s2i32, s3i32, s4i32)
+	s2i32 = f580(ctx, s2i32, s3i32, s4i32)
 	if s2i32 != 0 {
 		// s0i32 = s0i32
 	} else {

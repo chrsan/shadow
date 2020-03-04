@@ -6,8 +6,6 @@ import (
 )
 
 func f906(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, l5 float32) {
-	var l6 float32
-	_ = l6
 	var s0i32 int32
 	_ = s0i32
 	var s1i32 int32
@@ -38,10 +36,6 @@ func f906(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 	_ = s7f32
 	var s8f32 float32
 	_ = s8f32
-	var s9f32 float32
-	_ = s9f32
-	var s10f32 float32
-	_ = s10f32
 	s0i32 = l0
 	s1i32 = l1
 	s2i32 = 4
@@ -56,29 +50,21 @@ func f906(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 	s3i32 = s3i32 & s4i32
 	s3f32 = math.Float32frombits(uint32(s3i32))
 	l2 = s3f32
-	s4f32 = 12.92
+	s4f32 = 0.07739938
 	s3f32 = s3f32 * s4f32
-	s4f32 = 1
-	s5f32 = 1
-	s6f32 = l2
-	s6f32 = float32(math.Sqrt(float64(s6f32)))
-	s5f32 = s5f32 / s6f32
-	l6 = s5f32
-	s6f32 = 0.14137776
-	s5f32 = s5f32 + s6f32
-	s4f32 = s4f32 / s5f32
-	s5f32 = l6
-	s6f32 = 0.013832027
-	s7f32 = l6
-	s8f32 = 0.0024542345
-	s7f32 = s7f32 * s8f32
-	s6f32 = s6f32 - s7f32
-	s5f32 = s5f32 * s6f32
-	s6f32 = 1.13
-	s5f32 = s5f32 + s6f32
+	s4f32 = l2
+	s5f32 = l2
 	s4f32 = s4f32 * s5f32
 	s5f32 = l2
-	s6f32 = 0.00465985
+	s6f32 = 0.3
+	s5f32 = s5f32 * s6f32
+	s6f32 = 0.6975
+	s5f32 = s5f32 + s6f32
+	s4f32 = s4f32 * s5f32
+	s5f32 = 0.0025
+	s4f32 = s4f32 + s5f32
+	s5f32 = l2
+	s6f32 = 0.055
 	if s5f32 < s6f32 {
 		s5i32 = 1
 	} else {
@@ -102,29 +88,21 @@ func f906(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 	s4i32 = s4i32 & s5i32
 	s4f32 = math.Float32frombits(uint32(s4i32))
 	l2 = s4f32
-	s5f32 = 12.92
+	s5f32 = 0.07739938
 	s4f32 = s4f32 * s5f32
-	s5f32 = 1
-	s6f32 = 1
-	s7f32 = l2
-	s7f32 = float32(math.Sqrt(float64(s7f32)))
-	s6f32 = s6f32 / s7f32
-	l3 = s6f32
-	s7f32 = 0.14137776
-	s6f32 = s6f32 + s7f32
-	s5f32 = s5f32 / s6f32
-	s6f32 = l3
-	s7f32 = 0.013832027
-	s8f32 = l3
-	s9f32 = 0.0024542345
-	s8f32 = s8f32 * s9f32
-	s7f32 = s7f32 - s8f32
-	s6f32 = s6f32 * s7f32
-	s7f32 = 1.13
-	s6f32 = s6f32 + s7f32
+	s5f32 = l2
+	s6f32 = l2
 	s5f32 = s5f32 * s6f32
 	s6f32 = l2
-	s7f32 = 0.00465985
+	s7f32 = 0.3
+	s6f32 = s6f32 * s7f32
+	s7f32 = 0.6975
+	s6f32 = s6f32 + s7f32
+	s5f32 = s5f32 * s6f32
+	s6f32 = 0.0025
+	s5f32 = s5f32 + s6f32
+	s6f32 = l2
+	s7f32 = 0.055
 	if s6f32 < s7f32 {
 		s6i32 = 1
 	} else {
@@ -148,29 +126,21 @@ func f906(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 	s5i32 = s5i32 & s6i32
 	s5f32 = math.Float32frombits(uint32(s5i32))
 	l2 = s5f32
-	s6f32 = 12.92
+	s6f32 = 0.07739938
 	s5f32 = s5f32 * s6f32
-	s6f32 = 1
-	s7f32 = 1
-	s8f32 = l2
-	s8f32 = float32(math.Sqrt(float64(s8f32)))
-	s7f32 = s7f32 / s8f32
-	l3 = s7f32
-	s8f32 = 0.14137776
-	s7f32 = s7f32 + s8f32
-	s6f32 = s6f32 / s7f32
-	s7f32 = l3
-	s8f32 = 0.013832027
-	s9f32 = l3
-	s10f32 = 0.0024542345
-	s9f32 = s9f32 * s10f32
-	s8f32 = s8f32 - s9f32
-	s7f32 = s7f32 * s8f32
-	s8f32 = 1.13
-	s7f32 = s7f32 + s8f32
+	s6f32 = l2
+	s7f32 = l2
 	s6f32 = s6f32 * s7f32
 	s7f32 = l2
-	s8f32 = 0.00465985
+	s8f32 = 0.3
+	s7f32 = s7f32 * s8f32
+	s8f32 = 0.6975
+	s7f32 = s7f32 + s8f32
+	s6f32 = s6f32 * s7f32
+	s7f32 = 0.0025
+	s6f32 = s6f32 + s7f32
+	s7f32 = l2
+	s8f32 = 0.055
 	if s7f32 < s8f32 {
 		s7i32 = 1
 	} else {

@@ -1,13 +1,8 @@
 package internal
 
-import (
-	"unsafe"
-)
-
-func f1414(ctx *Context, l0 int32, l1 int32) int32 {
-	var s0i32 int32
-	_ = s0i32
-	s0i32 = 27292
-	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)]))
-	return s0i32
+func f1414(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int64, l5 int32, l6 int32, l7 int32, l8 int32, l9 int32) int64 {
+	var s0i64 int64
+	_ = s0i64
+	s0i64 = 0
+	return s0i64
 }

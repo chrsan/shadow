@@ -1,64 +1,8 @@
 package internal
 
-func f735(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
-	var l4 int32
-	_ = l4
-	var l5 int32
-	_ = l5
-	var l6 int32
-	_ = l6
-	var l7 int32
-	_ = l7
-	var l8 int32
-	_ = l8
-	var l9 int64
-	_ = l9
-	var l10 int64
-	_ = l10
-	var l11 int64
-	_ = l11
-	var l12 int64
-	_ = l12
-	var l13 int64
-	_ = l13
-	var l14 int64
-	_ = l14
-	var l15 int64
-	_ = l15
-	var l16 int64
-	_ = l16
-	var l17 int64
-	_ = l17
-	var l18 int64
-	_ = l18
-	var l19 int64
-	_ = l19
-	var l20 int64
-	_ = l20
-	var l21 int64
-	_ = l21
-	var l22 int64
-	_ = l22
-	var l23 int64
-	_ = l23
-	var l24 int64
-	_ = l24
-	var l25 int64
-	_ = l25
-	var l26 int64
-	_ = l26
-	var l27 int64
-	_ = l27
-	var l28 int64
-	_ = l28
-	var l29 int64
-	_ = l29
-	var l30 int64
-	_ = l30
-	var l31 int64
-	_ = l31
-	var l32 int64
-	_ = l32
+func f735(ctx *Context) {
+	var l0 int32
+	_ = l0
 	var s0i32 int32
 	_ = s0i32
 	var s1i32 int32
@@ -67,404 +11,62 @@ func f735(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 	_ = s2i32
 	var s3i32 int32
 	_ = s3i32
-	var s0i64 int64
-	_ = s0i64
-	var s1i64 int64
-	_ = s1i64
-	var s2i64 int64
-	_ = s2i64
-	var s3i64 int64
-	_ = s3i64
-	s0i32 = l1
-	s0i64 = int64(ctx.Mem[int(s0i32+3)])
-	l9 = s0i64
-	s0i32 = l3
-	s0i64 = int64(ctx.Mem[int(s0i32+3)])
-	l10 = s0i64
-	s0i32 = l1
-	s0i64 = int64(ctx.Mem[int(s0i32+5)])
-	l11 = s0i64
-	s0i32 = l3
-	s0i64 = int64(ctx.Mem[int(s0i32+5)])
-	l12 = s0i64
-	s0i32 = l1
-	s0i64 = int64(ctx.Mem[int(s0i32+6)])
-	l13 = s0i64
-	s0i32 = l3
-	s0i64 = int64(ctx.Mem[int(s0i32+6)])
-	l14 = s0i64
-	s0i32 = l1
-	s0i64 = int64(ctx.Mem[int(s0i32+7)])
-	l15 = s0i64
-	s0i32 = l3
-	s0i64 = int64(ctx.Mem[int(s0i32+7)])
-	l16 = s0i64
-	s0i32 = l1
-	s0i64 = int64(ctx.Mem[int(s0i32+9)])
-	l17 = s0i64
-	s0i32 = l3
-	s0i64 = int64(ctx.Mem[int(s0i32+9)])
-	l18 = s0i64
-	s0i32 = l1
-	s0i64 = int64(ctx.Mem[int(s0i32+10)])
-	l19 = s0i64
-	s0i32 = l3
-	s0i64 = int64(ctx.Mem[int(s0i32+10)])
-	l20 = s0i64
-	s0i32 = l1
-	s0i64 = int64(ctx.Mem[int(s0i32+11)])
-	l21 = s0i64
-	s0i32 = l3
-	s0i64 = int64(ctx.Mem[int(s0i32+11)])
-	l22 = s0i64
-	s0i32 = l1
-	s0i64 = int64(ctx.Mem[int(s0i32+13)])
-	l23 = s0i64
-	s0i32 = l3
-	s0i64 = int64(ctx.Mem[int(s0i32+13)])
-	l24 = s0i64
-	s0i32 = l1
-	s0i64 = int64(ctx.Mem[int(s0i32+14)])
-	l25 = s0i64
-	s0i32 = l3
-	s0i64 = int64(ctx.Mem[int(s0i32+14)])
-	l26 = s0i64
-	s0i32 = l1
-	s0i64 = int64(ctx.Mem[int(s0i32+15)])
-	l27 = s0i64
-	s0i32 = l3
-	s0i64 = int64(ctx.Mem[int(s0i32+15)])
-	l28 = s0i64
-	s0i32 = l1
-	s0i32 = int32(ctx.Mem[int(s0i32+12)])
-	l2 = s0i32
-	s0i32 = l3
-	s0i32 = int32(ctx.Mem[int(s0i32+12)])
-	l4 = s0i32
-	s0i32 = l1
-	s0i64 = int64(ctx.Mem[int(s0i32+1)])
-	l29 = s0i64
-	s0i32 = l3
-	s0i64 = int64(ctx.Mem[int(s0i32+1)])
-	l30 = s0i64
-	s0i32 = l1
-	s0i64 = int64(ctx.Mem[int(s0i32+2)])
-	l31 = s0i64
-	s0i32 = l3
-	s0i64 = int64(ctx.Mem[int(s0i32+2)])
-	l32 = s0i64
-	s0i32 = l1
+	s0i32 = 28784
 	s0i32 = int32(ctx.Mem[int(s0i32+0)])
-	l5 = s0i32
-	s0i32 = l3
-	s0i32 = int32(ctx.Mem[int(s0i32+0)])
-	l6 = s0i32
-	s0i32 = l1
-	s0i32 = int32(ctx.Mem[int(s0i32+4)])
-	l7 = s0i32
-	s0i32 = l3
-	s0i32 = int32(ctx.Mem[int(s0i32+4)])
-	l8 = s0i32
+	l0 = s0i32
+	s1i32 = 2
+	if uint32(s0i32) > uint32(s1i32) {
+		s0i32 = 1
+	} else {
+		s0i32 = 0
+	}
+	if s0i32 != 0 {
+		goto lbl1
+	}
 	s0i32 = l0
-	s1i32 = l1
-	s1i32 = int32(ctx.Mem[int(s1i32+8)])
-	s2i32 = l3
-	s2i32 = int32(ctx.Mem[int(s2i32+8)])
-	s3i32 = 255
-	s2i32 = s2i32 ^ s3i32
-	s1i32 = s1i32 * s2i32
-	s2i32 = 128
-	s1i32 = s1i32 + s2i32
-	l1 = s1i32
-	s2i32 = 65280
-	s1i32 = s1i32 & s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	s2i32 = l1
-	s1i32 = s1i32 + s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	ctx.Mem[int(s0i32+8)] = uint8(s1i32)
-	s0i32 = l0
-	s1i32 = l7
-	s2i32 = l8
-	s3i32 = 255
-	s2i32 = s2i32 ^ s3i32
-	s1i32 = s1i32 * s2i32
-	s2i32 = 128
-	s1i32 = s1i32 + s2i32
-	l1 = s1i32
-	s2i32 = 65280
-	s1i32 = s1i32 & s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	s2i32 = l1
-	s1i32 = s1i32 + s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	ctx.Mem[int(s0i32+4)] = uint8(s1i32)
-	s0i32 = l0
-	s1i32 = l5
-	s2i32 = l6
-	s3i32 = 255
-	s2i32 = s2i32 ^ s3i32
-	s1i32 = s1i32 * s2i32
-	s2i32 = 128
-	s1i32 = s1i32 + s2i32
-	l1 = s1i32
-	s2i32 = 65280
-	s1i32 = s1i32 & s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	s2i32 = l1
-	s1i32 = s1i32 + s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
+	s1i32 = 1
+	s0i32 = s0i32 - s1i32
+	switch s0i32 {
+	case 0:
+		goto lbl1
+	case 1:
+		goto lbl0
+	default:
+		goto lbl2
+	}
+lbl2:
+	s0i32 = 28784
+	s1i32 = 28784
+	s1i32 = int32(ctx.Mem[int(s1i32+0)])
+	l0 = s1i32
+	s2i32 = 1
+	s3i32 = l0
+	if s3i32 != 0 {
+		// s1i32 = s1i32
+	} else {
+		s1i32 = s2i32
+	}
 	ctx.Mem[int(s0i32+0)] = uint8(s1i32)
 	s0i32 = l0
-	s1i32 = l2
-	s2i32 = l4
-	s3i32 = 255
-	s2i32 = s2i32 ^ s3i32
-	s1i32 = s1i32 * s2i32
-	s2i32 = 128
-	s1i32 = s1i32 + s2i32
-	l1 = s1i32
-	s2i32 = 65280
-	s1i32 = s1i32 & s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	s2i32 = l1
-	s1i32 = s1i32 + s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	ctx.Mem[int(s0i32+12)] = uint8(s1i32)
-	s0i32 = l0
-	s1i64 = l31
-	s2i64 = l32
-	s3i64 = 255
-	s2i64 = s2i64 ^ s3i64
-	s1i64 = s1i64 * s2i64
-	s1i32 = int32(s1i64)
-	s2i32 = 128
-	s1i32 = s1i32 + s2i32
-	l1 = s1i32
-	s2i32 = 65280
-	s1i32 = s1i32 & s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	s2i32 = l1
-	s1i32 = s1i32 + s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	ctx.Mem[int(s0i32+2)] = uint8(s1i32)
-	s0i32 = l0
-	s1i64 = l29
-	s2i64 = l30
-	s3i64 = 255
-	s2i64 = s2i64 ^ s3i64
-	s1i64 = s1i64 * s2i64
-	s1i32 = int32(s1i64)
-	s2i32 = 128
-	s1i32 = s1i32 + s2i32
-	l1 = s1i32
-	s2i32 = 65280
-	s1i32 = s1i32 & s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	s2i32 = l1
-	s1i32 = s1i32 + s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	ctx.Mem[int(s0i32+1)] = uint8(s1i32)
-	s0i32 = l0
-	s1i64 = l27
-	s2i64 = l28
-	s3i64 = 255
-	s2i64 = s2i64 ^ s3i64
-	s1i64 = s1i64 * s2i64
-	s1i32 = int32(s1i64)
-	s2i32 = 128
-	s1i32 = s1i32 + s2i32
-	l1 = s1i32
-	s2i32 = 65280
-	s1i32 = s1i32 & s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	s2i32 = l1
-	s1i32 = s1i32 + s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	ctx.Mem[int(s0i32+15)] = uint8(s1i32)
-	s0i32 = l0
-	s1i64 = l25
-	s2i64 = l26
-	s3i64 = 255
-	s2i64 = s2i64 ^ s3i64
-	s1i64 = s1i64 * s2i64
-	s1i32 = int32(s1i64)
-	s2i32 = 128
-	s1i32 = s1i32 + s2i32
-	l1 = s1i32
-	s2i32 = 65280
-	s1i32 = s1i32 & s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	s2i32 = l1
-	s1i32 = s1i32 + s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	ctx.Mem[int(s0i32+14)] = uint8(s1i32)
-	s0i32 = l0
-	s1i64 = l23
-	s2i64 = l24
-	s3i64 = 255
-	s2i64 = s2i64 ^ s3i64
-	s1i64 = s1i64 * s2i64
-	s1i32 = int32(s1i64)
-	s2i32 = 128
-	s1i32 = s1i32 + s2i32
-	l1 = s1i32
-	s2i32 = 65280
-	s1i32 = s1i32 & s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	s2i32 = l1
-	s1i32 = s1i32 + s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	ctx.Mem[int(s0i32+13)] = uint8(s1i32)
-	s0i32 = l0
-	s1i64 = l21
-	s2i64 = l22
-	s3i64 = 255
-	s2i64 = s2i64 ^ s3i64
-	s1i64 = s1i64 * s2i64
-	s1i32 = int32(s1i64)
-	s2i32 = 128
-	s1i32 = s1i32 + s2i32
-	l1 = s1i32
-	s2i32 = 65280
-	s1i32 = s1i32 & s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	s2i32 = l1
-	s1i32 = s1i32 + s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	ctx.Mem[int(s0i32+11)] = uint8(s1i32)
-	s0i32 = l0
-	s1i64 = l19
-	s2i64 = l20
-	s3i64 = 255
-	s2i64 = s2i64 ^ s3i64
-	s1i64 = s1i64 * s2i64
-	s1i32 = int32(s1i64)
-	s2i32 = 128
-	s1i32 = s1i32 + s2i32
-	l1 = s1i32
-	s2i32 = 65280
-	s1i32 = s1i32 & s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	s2i32 = l1
-	s1i32 = s1i32 + s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	ctx.Mem[int(s0i32+10)] = uint8(s1i32)
-	s0i32 = l0
-	s1i64 = l17
-	s2i64 = l18
-	s3i64 = 255
-	s2i64 = s2i64 ^ s3i64
-	s1i64 = s1i64 * s2i64
-	s1i32 = int32(s1i64)
-	s2i32 = 128
-	s1i32 = s1i32 + s2i32
-	l1 = s1i32
-	s2i32 = 65280
-	s1i32 = s1i32 & s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	s2i32 = l1
-	s1i32 = s1i32 + s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	ctx.Mem[int(s0i32+9)] = uint8(s1i32)
-	s0i32 = l0
-	s1i64 = l15
-	s2i64 = l16
-	s3i64 = 255
-	s2i64 = s2i64 ^ s3i64
-	s1i64 = s1i64 * s2i64
-	s1i32 = int32(s1i64)
-	s2i32 = 128
-	s1i32 = s1i32 + s2i32
-	l1 = s1i32
-	s2i32 = 65280
-	s1i32 = s1i32 & s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	s2i32 = l1
-	s1i32 = s1i32 + s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	ctx.Mem[int(s0i32+7)] = uint8(s1i32)
-	s0i32 = l0
-	s1i64 = l13
-	s2i64 = l14
-	s3i64 = 255
-	s2i64 = s2i64 ^ s3i64
-	s1i64 = s1i64 * s2i64
-	s1i32 = int32(s1i64)
-	s2i32 = 128
-	s1i32 = s1i32 + s2i32
-	l1 = s1i32
-	s2i32 = 65280
-	s1i32 = s1i32 & s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	s2i32 = l1
-	s1i32 = s1i32 + s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	ctx.Mem[int(s0i32+6)] = uint8(s1i32)
-	s0i32 = l0
-	s1i64 = l11
-	s2i64 = l12
-	s3i64 = 255
-	s2i64 = s2i64 ^ s3i64
-	s1i64 = s1i64 * s2i64
-	s1i32 = int32(s1i64)
-	s2i32 = 128
-	s1i32 = s1i32 + s2i32
-	l1 = s1i32
-	s2i32 = 65280
-	s1i32 = s1i32 & s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	s2i32 = l1
-	s1i32 = s1i32 + s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	ctx.Mem[int(s0i32+5)] = uint8(s1i32)
-	s0i32 = l0
-	s1i64 = l9
-	s2i64 = l10
-	s3i64 = 255
-	s2i64 = s2i64 ^ s3i64
-	s1i64 = s1i64 * s2i64
-	s1i32 = int32(s1i64)
-	s2i32 = 128
-	s1i32 = s1i32 + s2i32
-	l0 = s1i32
-	s2i32 = 65280
-	s1i32 = s1i32 & s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	s2i32 = l0
-	s1i32 = s1i32 + s2i32
-	s2i32 = 8
-	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
-	ctx.Mem[int(s0i32+3)] = uint8(s1i32)
+	if s0i32 != 0 {
+		goto lbl1
+	}
+	s0i32 = 28784
+	s1i32 = 2
+	ctx.Mem[int(s0i32+0)] = uint8(s1i32)
+	return
+lbl1:
+lbl3:
+	s0i32 = 28784
+	s0i32 = int32(ctx.Mem[int(s0i32+0)])
+	s1i32 = 2
+	if s0i32 != s1i32 {
+		s0i32 = 1
+	} else {
+		s0i32 = 0
+	}
+	if s0i32 != 0 {
+		goto lbl3
+	}
+lbl0:
 }

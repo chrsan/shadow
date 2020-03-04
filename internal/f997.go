@@ -50,7 +50,7 @@ func f997(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int
 	s1i32 = l6
 	s2i32 = 1248
 	s1i32 = s1i32 + s2i32
-	s0i32 = f2084(ctx, s0i32, s1i32)
+	s0i32 = f2083(ctx, s0i32, s1i32)
 	if s0i32 == 0 {
 		s0i32 = 1
 	} else {

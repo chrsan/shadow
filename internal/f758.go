@@ -1,20 +1,13 @@
 package internal
 
 import (
+	"math"
 	"unsafe"
 )
 
 func f758(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, l5 float32) {
 	var l6 int32
 	_ = l6
-	var l7 int32
-	_ = l7
-	var l8 int32
-	_ = l8
-	var l9 int32
-	_ = l9
-	var l10 int32
-	_ = l10
 	var s0i32 int32
 	_ = s0i32
 	var s1i32 int32
@@ -31,8 +24,6 @@ func f758(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 	_ = s6i32
 	var s7i32 int32
 	_ = s7i32
-	var s1f32 float32
-	_ = s1f32
 	var s2f32 float32
 	_ = s2f32
 	var s3f32 float32
@@ -43,58 +34,41 @@ func f758(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 	_ = s5f32
 	var s6f32 float32
 	_ = s6f32
-	s0i32 = l1
-	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)]))
-	l6 = s0i32
-	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)]))
-	l9 = s0i32
-	s1i32 = 2
-	if uint32(s0i32) >= uint32(s1i32) {
-		s0i32 = 1
-	} else {
-		s0i32 = 0
-	}
-	if s0i32 != 0 {
-		s0i32 = l6
-		s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+36)]))
-		l10 = s0i32
-		s0i32 = 1
-		l8 = s0i32
-	lbl1:
-		s0i32 = l7
-		s1i32 = l10
-		s2i32 = l8
-		s3i32 = 2
-		s2i32 = s2i32 << (uint32(s3i32) & 31)
-		s1i32 = s1i32 + s2i32
-		s1f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s1i32+0)]))
-		s2f32 = l2
-		if s1f32 <= s2f32 {
-			s1i32 = 1
-		} else {
-			s1i32 = 0
-		}
-		s0i32 = s0i32 + s1i32
-		l7 = s0i32
-		s0i32 = l8
-		s1i32 = 1
-		s0i32 = s0i32 + s1i32
-		l8 = s0i32
-		s1i32 = l9
-		if s0i32 != s1i32 {
-			s0i32 = 1
-		} else {
-			s0i32 = 0
-		}
-		if s0i32 != 0 {
-			goto lbl1
-		}
-	}
 	s0i32 = l0
 	s1i32 = l1
 	s2i32 = 8
 	s1i32 = s1i32 + s2i32
-	s2i32 = l7
+	s2i32 = l1
+	s2i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s2i32+0)]))
+	l6 = s2i32
+	s2i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s2i32+0)]))
+	s3i32 = -1
+	s2i32 = s2i32 + s3i32
+	s2f32 = float32(uint32(s2i32))
+	s3f32 = l2
+	s2f32 = s2f32 * s3f32
+	l3 = s2f32
+	s3f32 = 4.2949673e+09
+	if s2f32 < s3f32 {
+		s2i32 = 1
+	} else {
+		s2i32 = 0
+	}
+	s3f32 = l3
+	s4f32 = 0
+	if s3f32 >= s4f32 {
+		s3i32 = 1
+	} else {
+		s3i32 = 0
+	}
+	s2i32 = s2i32 & s3i32
+	if s2i32 != 0 {
+		s2f32 = l3
+		s2i32 = int32(uint32(math.Trunc(float64(s2f32))))
+		goto lbl0
+	}
+	s2i32 = 0
+lbl0:
 	s3i32 = 2
 	s2i32 = s2i32 << (uint32(s3i32) & 31)
 	l0 = s2i32

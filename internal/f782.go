@@ -45,23 +45,6 @@ func f782(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 		s3i32 = 0
 	}
 	s2i32 = s2i32 & s3i32
-	s3f32 = l3
-	s4f32 = 0
-	if s3f32 >= s4f32 {
-		s3i32 = 1
-	} else {
-		s3i32 = 0
-	}
-	s2i32 = s2i32 & s3i32
-	s3i32 = l6
-	s3f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s3i32+68)]))
-	s4f32 = l3
-	if s3f32 > s4f32 {
-		s3i32 = 1
-	} else {
-		s3i32 = 0
-	}
-	s2i32 = s2i32 & s3i32
 	s1i32 = s1i32 - s2i32
 	*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = uint32(s1i32)
 	s0i32 = l0

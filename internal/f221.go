@@ -87,13 +87,13 @@ func f221(ctx *Context, l0 int32, l1 int32) {
 	s0i32 = l2
 	s1i32 = 8
 	s0i32 = s0i32 + s1i32
-	s0i32 = f38(ctx, s0i32)
+	s0i32 = f37(ctx, s0i32)
 	l6 = s0i32
 	s0i32 = l0
 	s1i32 = l1
 	s1i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s1i32+28)]))
 	s2i32 = l6
-	s0i32 = f422(ctx, s0i32, s1i32, s2i32)
+	s0i32 = f421(ctx, s0i32, s1i32, s2i32)
 	if s0i32 == 0 {
 		s0i32 = 1
 	} else {
@@ -576,7 +576,7 @@ lbl20:
 	s1i32 = 80
 	s0i32 = s0i32 + s1i32
 	s1i32 = l1
-	f356(ctx, s0i32, s1i32)
+	f355(ctx, s0i32, s1i32)
 	s0i32 = l2
 	s1i32 = 0
 	*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+48)])) = uint32(s1i32)

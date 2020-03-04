@@ -152,7 +152,7 @@ func f1581(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 	s3i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s3i32+0)]))
 	s4i32 = l3
 	s4i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s4i32+4)]))
-	s2i32 = f777(ctx, s2i32, s3i32, s4i32)
+	s2i32 = f757(ctx, s2i32, s3i32, s4i32)
 	l4 = s2i32
 	if s2i32 != 0 {
 		// s0i32 = s0i32

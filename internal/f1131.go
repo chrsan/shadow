@@ -286,7 +286,7 @@ lbl2:
 	s2i32 = l3
 	s3i32 = 3376
 	s2i32 = s2i32 + s3i32
-	s0i32 = f1878(ctx, s0i32, s1i32, s2i32)
+	s0i32 = f1879(ctx, s0i32, s1i32, s2i32)
 	if s0i32 == 0 {
 		s0i32 = 1
 	} else {
@@ -334,7 +334,7 @@ lbl2:
 	}
 lbl1:
 	s0i32 = l3
-	s0i32 = f38(ctx, s0i32)
+	s0i32 = f37(ctx, s0i32)
 	l4 = s0i32
 	s1i32 = l1
 	f331(ctx, s0i32, s1i32)

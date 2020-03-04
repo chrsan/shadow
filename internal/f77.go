@@ -20,6 +20,6 @@ func f77(ctx *Context, l0 int32, l1 int32, l2 int32) {
 		s0i32 = l1
 		s1i32 = l2
 		s2i32 = l0
-		s0i32 = f379(ctx, s0i32, s1i32, s2i32)
+		s0i32 = f378(ctx, s0i32, s1i32, s2i32)
 	}
 }

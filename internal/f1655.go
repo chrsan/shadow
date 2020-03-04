@@ -1080,7 +1080,7 @@ lbl37:
 		s1i32 = l3
 		s2i32 = 40
 		s1i32 = s1i32 + s2i32
-		f597(ctx, s0i32, s1i32)
+		f598(ctx, s0i32, s1i32)
 	lbl44:
 		s0i32 = l0
 		s1i32 = l0
@@ -1286,7 +1286,7 @@ lbl46:
 		s1i32 = l3
 		s2i32 = 40
 		s1i32 = s1i32 + s2i32
-		f597(ctx, s0i32, s1i32)
+		f598(ctx, s0i32, s1i32)
 	lbl53:
 		s0i32 = l1
 		s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+4)]))

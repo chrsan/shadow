@@ -80,7 +80,7 @@ lbl1:
 		s1i32 = l1
 		s2i32 = l2
 		s3i32 = 0
-		f418(ctx, s0i32, s1i32, s2i32, s3i32)
+		f417(ctx, s0i32, s1i32, s2i32, s3i32)
 		goto lbl0
 	}
 	s0i32 = l3
@@ -145,7 +145,7 @@ lbl1:
 	s1i32 = l4
 	s2i32 = l3
 	s3i32 = 1
-	f418(ctx, s0i32, s1i32, s2i32, s3i32)
+	f417(ctx, s0i32, s1i32, s2i32, s3i32)
 	s0i32 = l3
 	s0i32 = f74(ctx, s0i32)
 	s0i32 = l4

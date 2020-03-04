@@ -15,5 +15,5 @@ func f1554(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 	s1i32 = l1
 	s2i32 = l2
 	s3i32 = l3
-	s0i32 = f341(ctx, s0i32, s1i32, s2i32, s3i32)
+	s0i32 = f340(ctx, s0i32, s1i32, s2i32, s3i32)
 }

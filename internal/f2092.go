@@ -81,7 +81,7 @@ func f2092(ctx *Context, l0 int32, l1 int32) {
 		s3i32 = 8
 		s2i32 = s2i32 + s3i32
 		s3i32 = l0
-		s2i32 = f676(ctx, s2i32, s3i32)
+		s2i32 = f677(ctx, s2i32, s3i32)
 		l1 = s2i32
 	}
 	s2i32 = l1

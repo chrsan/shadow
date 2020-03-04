@@ -27,5 +27,5 @@ func f253(ctx *Context, l0 int32, l1 int32) {
 	s0i32 = l0
 	s1i32 = l1
 	s2i32 = 0
-	f390(ctx, s0i32, s1i32, s2i32)
+	f389(ctx, s0i32, s1i32, s2i32)
 }

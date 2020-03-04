@@ -188,7 +188,7 @@ lbl1:
 	s0i32 = l4
 	s1i32 = l1
 	s2i32 = l0
-	f1214(ctx, s0i32, s1i32, s2i32)
+	f1213(ctx, s0i32, s1i32, s2i32)
 	s0i32 = l2
 	s1i32 = 20
 	s0i32 = s0i32 + s1i32

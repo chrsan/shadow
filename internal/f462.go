@@ -33,7 +33,7 @@ func f462(ctx *Context, l0 int32) {
 		s0i32 = 0
 	}
 	if s0i32 != 0 {
-		f839(ctx)
+		f819(ctx)
 		panic("unreachable executed")
 	}
 	s0i32 = l1

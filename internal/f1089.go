@@ -26,7 +26,7 @@ func f1089(ctx *Context, l0 int32, l1 int32) {
 		*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = uint32(s1i32)
 		return
 	}
-	s0i32 = f610(ctx)
+	s0i32 = f612(ctx)
 	l1 = s0i32
 	if s0i32 != 0 {
 		s0i32 = l1

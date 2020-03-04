@@ -212,7 +212,7 @@ lbl2:
 		if s0i32 != 0 {
 			s0i32 = l0
 			s1i32 = l2
-			f608(ctx, s0i32, s1i32)
+			f610(ctx, s0i32, s1i32)
 		}
 		s0i32 = l1
 		s1i32 = 1
@@ -248,7 +248,7 @@ lbl4:
 	s1i32 = l7
 	s2i32 = 32
 	s1i32 = s1i32 + s2i32
-	f608(ctx, s0i32, s1i32)
+	f610(ctx, s0i32, s1i32)
 lbl0:
 	s0i32 = l7
 	s1i32 = -64

@@ -64,7 +64,7 @@ func f1510(ctx *Context, l0 int32, l1 int32) int32 {
 	s2i32 = 56
 	s1i32 = s1i32 + s2i32
 	s2i32 = 0
-	s0i32 = f348(ctx, s0i32, s1i32, s2i32)
+	s0i32 = f347(ctx, s0i32, s1i32, s2i32)
 	if s0i32 == 0 {
 		s0i32 = 1
 	} else {
@@ -146,7 +146,7 @@ func f1510(ctx *Context, l0 int32, l1 int32) int32 {
 		s0i32 = 0
 		l4 = s0i32
 		s0i32 = l1
-		s0i32 = f1952(ctx, s0i32)
+		s0i32 = f1953(ctx, s0i32)
 		l3 = s0i32
 		s0i32 = l0
 		s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+108)]))
@@ -216,7 +216,7 @@ func f1510(ctx *Context, l0 int32, l1 int32) int32 {
 	s2i32 = l2
 	s3i32 = 8
 	s2i32 = s2i32 + s3i32
-	s0i32 = f1960(ctx, s0i32, s1i32, s2i32)
+	s0i32 = f1961(ctx, s0i32, s1i32, s2i32)
 	if s0i32 != 0 {
 		s0i32 = l5
 		s1i32 = l2

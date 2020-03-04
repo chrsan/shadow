@@ -324,29 +324,38 @@ lbl4:
 		goto lbl3
 	}
 	s0i32 = l5
-	s0i32 = int32(*(*uint16)(unsafe.Pointer(&ctx.Mem[int(s0i32+2)])))
-	l3 = s0i32
-	s1i32 = l5
-	s1i32 = int32(*(*uint16)(unsafe.Pointer(&ctx.Mem[int(s1i32+0)])))
-	l6 = s1i32
-	s2i32 = l6
-	s3i32 = l3
-	if uint32(s2i32) < uint32(s3i32) {
-		s2i32 = 1
-	} else {
-		s2i32 = 0
-	}
-	if s2i32 != 0 {
-		// s0i32 = s0i32
-	} else {
-		s0i32 = s1i32
-	}
-	s1i32 = 257
-	if uint32(s0i32) < uint32(s1i32) {
+	s0i32 = int32(ctx.Mem[int(s0i32+24)])
+	s1i32 = 5
+	if s0i32 == s1i32 {
 		s0i32 = 1
 	} else {
 		s0i32 = 0
 	}
+	s1i32 = l5
+	s1i32 = int32(*(*uint16)(unsafe.Pointer(&ctx.Mem[int(s1i32+2)])))
+	l3 = s1i32
+	s2i32 = l5
+	s2i32 = int32(*(*uint16)(unsafe.Pointer(&ctx.Mem[int(s2i32+0)])))
+	l6 = s2i32
+	s3i32 = l6
+	s4i32 = l3
+	if uint32(s3i32) < uint32(s4i32) {
+		s3i32 = 1
+	} else {
+		s3i32 = 0
+	}
+	if s3i32 != 0 {
+		// s1i32 = s1i32
+	} else {
+		s1i32 = s2i32
+	}
+	s2i32 = 257
+	if uint32(s1i32) < uint32(s2i32) {
+		s1i32 = 1
+	} else {
+		s1i32 = 0
+	}
+	s0i32 = s0i32 & s1i32
 	if s0i32 != 0 {
 		s0i32 = l1
 		s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+16)]))

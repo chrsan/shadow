@@ -21,28 +21,14 @@ func f844(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 	_ = s4f32
 	var s5f32 float32
 	_ = s5f32
-	var s6f32 float32
-	_ = s6f32
-	var s7f32 float32
-	_ = s7f32
 	s0i32 = l0
 	s1i32 = l1
 	s2i32 = 4
 	s1i32 = s1i32 + s2i32
-	s2f32 = 0
-	s3f32 = 0
-	s4f32 = 0
-	s5f32 = l2
-	s6f32 = 0.2126
-	s5f32 = s5f32 * s6f32
-	s6f32 = l3
-	s7f32 = 0.7152
-	s6f32 = s6f32 * s7f32
-	s5f32 = s5f32 + s6f32
-	s6f32 = l4
-	s7f32 = 0.0722
-	s6f32 = s6f32 * s7f32
-	s5f32 = s5f32 + s6f32
+	s2f32 = l5
+	s3f32 = l5
+	s4f32 = l5
+	s5f32 = 1
 	s6i32 = l1
 	s6i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s6i32+0)]))
 	if int(s6i32) < 0 || int(s6i32) >= len(table) {

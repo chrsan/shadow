@@ -4,7 +4,7 @@ import (
 	"unsafe"
 )
 
-func f992(ctx *Context, l0 int32) {
+func f992(ctx *Context, l0 int32) int32 {
 	var l1 int32
 	_ = l1
 	var l2 int32
@@ -62,5 +62,5 @@ func f992(ctx *Context, l0 int32) {
 	(*(*func(*Context, int32))(table[s1i32].f()))(ctx, s0i32)
 lbl0:
 	s0i32 = l0
-	f12(ctx, s0i32)
+	return s0i32
 }

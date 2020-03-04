@@ -249,7 +249,7 @@ lbl1:
 	s1i32 = int32(uint32(s1i32) >> (uint32(s2i32) & 31))
 	s2i32 = 255
 	s1i32 = s1i32 & s2i32
-	f588(ctx, s0i32, s1i32)
+	f589(ctx, s0i32, s1i32)
 	s0i32 = l5
 	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+8)]))
 	l0 = s0i32

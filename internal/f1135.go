@@ -33,7 +33,7 @@ func f1135(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 		s2i32 = l0
 		s2i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s2i32+12)]))
 		s3i32 = l3
-		f411(ctx, s0i32, s1i32, s2i32, s3i32)
+		f410(ctx, s0i32, s1i32, s2i32, s3i32)
 		s0i32 = l4
 		s1i32 = 2
 		s0i32 = s0i32 + s1i32

@@ -156,7 +156,7 @@ func f270(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) int32 {
 			s4i32 = 0
 		}
 		s5i32 = 1
-		s0i32 = f433(ctx, s0i32, s1i32, s2i32, s3i32, s4i32, s5i32)
+		s0i32 = f432(ctx, s0i32, s1i32, s2i32, s3i32, s4i32, s5i32)
 		l1 = s0i32
 		goto lbl0
 	}
@@ -327,7 +327,7 @@ func f270(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) int32 {
 		}
 		s4i32 = s4i32 & s5i32
 		s5i32 = l11
-		s0i32 = f433(ctx, s0i32, s1i32, s2i32, s3i32, s4i32, s5i32)
+		s0i32 = f432(ctx, s0i32, s1i32, s2i32, s3i32, s4i32, s5i32)
 		l1 = s0i32
 		goto lbl0
 	}

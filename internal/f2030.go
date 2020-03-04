@@ -10,9 +10,9 @@ func f2030(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 	_ = l4
 	var l5 int32
 	_ = l5
-	var l6 int32
+	var l6 int64
 	_ = l6
-	var l7 int32
+	var l7 int64
 	_ = l7
 	var l8 int64
 	_ = l8
@@ -20,16 +20,6 @@ func f2030(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 	_ = l9
 	var l10 int64
 	_ = l10
-	var l11 int64
-	_ = l11
-	var l12 int64
-	_ = l12
-	var l13 int64
-	_ = l13
-	var l14 int64
-	_ = l14
-	var l15 float32
-	_ = l15
 	var s0i32 int32
 	_ = s0i32
 	var s1i32 int32
@@ -82,22 +72,17 @@ func f2030(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 		s0i32 = 0
 	}
 	if s0i32 != 0 {
-		s0i32 = l1
-		s1i32 = l2
-		s0i32 = s0i32 + s1i32
-		l6 = s0i32
-		s1i32 = l2
-		s0i32 = s0i32 + s1i32
+		s0i32 = 0
 		l2 = s0i32
 	lbl1:
 		s0i32 = l0
-		s1i32 = l7
+		s1i32 = l2
 		s2i32 = 3
 		s1i32 = s1i32 << (uint32(s2i32) & 31)
 		s0i32 = s0i32 + s1i32
 		s1i32 = l1
 		s1i64 = *(*int64)(unsafe.Pointer(&ctx.Mem[int(s1i32+0)]))
-		l8 = s1i64
+		l6 = s1i64
 		s2i64 = 48
 		s1i64 = int64(uint64(s1i64) >> (uint64(s2i64) & 63))
 		s1i32 = int32(s1i64)
@@ -121,18 +106,18 @@ func f2030(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 		} else {
 			s1i32 = s2i32
 		}
-		s2i64 = l8
+		s2i64 = l6
 		s3i64 = 32
 		s2i64 = int64(uint64(s2i64) >> (uint64(s3i64) & 63))
-		l12 = s2i64
+		l8 = s2i64
 		s2i32 = int32(s2i64)
 		s3i32 = -2147483648
 		s2i32 = s2i32 & s3i32
 		s1i32 = s1i32 | s2i32
 		s1f32 = math.Float32frombits(uint32(s1i32))
-		s2i32 = l6
-		s2i64 = *(*int64)(unsafe.Pointer(&ctx.Mem[int(s2i32+0)]))
-		l9 = s2i64
+		s2i32 = l1
+		s2i64 = *(*int64)(unsafe.Pointer(&ctx.Mem[int(s2i32+8)]))
+		l7 = s2i64
 		s3i64 = 48
 		s2i64 = int64(uint64(s2i64) >> (uint64(s3i64) & 63))
 		s2i32 = int32(s2i64)
@@ -156,56 +141,17 @@ func f2030(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 		} else {
 			s2i32 = s3i32
 		}
-		s3i64 = l9
+		s3i64 = l7
 		s4i64 = 32
 		s3i64 = int64(uint64(s3i64) >> (uint64(s4i64) & 63))
-		l13 = s3i64
-		s3i32 = int32(s3i64)
-		s4i32 = -2147483648
-		s3i32 = s3i32 & s4i32
-		s2i32 = s2i32 | s3i32
-		s2f32 = math.Float32frombits(uint32(s2i32))
-		l15 = s2f32
-		s1f32 = s1f32 + s2f32
-		s2f32 = l15
-		s1f32 = s1f32 + s2f32
-		s2i32 = l2
-		s2i64 = *(*int64)(unsafe.Pointer(&ctx.Mem[int(s2i32+0)]))
-		l10 = s2i64
-		s3i64 = 48
-		s2i64 = int64(uint64(s2i64) >> (uint64(s3i64) & 63))
-		s2i32 = int32(s2i64)
-		s3i32 = 32767
-		s2i32 = s2i32 & s3i32
-		l4 = s2i32
-		s3i32 = 13
-		s2i32 = s2i32 << (uint32(s3i32) & 31)
-		s3i32 = 939524096
-		s2i32 = s2i32 + s3i32
-		s3i32 = 0
-		s4i32 = l4
-		s5i32 = 1023
-		if uint32(s4i32) > uint32(s5i32) {
-			s4i32 = 1
-		} else {
-			s4i32 = 0
-		}
-		if s4i32 != 0 {
-			// s2i32 = s2i32
-		} else {
-			s2i32 = s3i32
-		}
-		s3i64 = l10
-		s4i64 = 32
-		s3i64 = int64(uint64(s3i64) >> (uint64(s4i64) & 63))
-		l14 = s3i64
+		l10 = s3i64
 		s3i32 = int32(s3i64)
 		s4i32 = -2147483648
 		s3i32 = s3i32 & s4i32
 		s2i32 = s2i32 | s3i32
 		s2f32 = math.Float32frombits(uint32(s2i32))
 		s1f32 = s1f32 + s2f32
-		s2f32 = 0.25
+		s2f32 = 0.5
 		s1f32 = s1f32 * s2f32
 		s1i32 = int32(math.Float32bits(s1f32))
 		l4 = s1i32
@@ -239,10 +185,10 @@ func f2030(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 		s1i64 = s1i64 << (uint64(s2i64) & 63)
 		s2i64 = 2147475456
 		s3i64 = 0
-		s4i64 = l8
+		s4i64 = l6
 		s5i64 = 32767
 		s4i64 = s4i64 & s5i64
-		l11 = s4i64
+		l9 = s4i64
 		s4i32 = int32(s4i64)
 		s5i32 = 1023
 		if uint32(s4i32) > uint32(s5i32) {
@@ -255,13 +201,13 @@ func f2030(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 		} else {
 			s2i64 = s3i64
 		}
-		s3i64 = l11
+		s3i64 = l9
 		s4i64 = 13
 		s3i64 = s3i64 << (uint64(s4i64) & 63)
 		s4i64 = 939524096
 		s3i64 = s3i64 + s4i64
 		s2i64 = s2i64 & s3i64
-		s3i64 = l8
+		s3i64 = l6
 		s4i64 = 16
 		s3i64 = s3i64 << (uint64(s4i64) & 63)
 		s4i64 = 2147483648
@@ -271,10 +217,10 @@ func f2030(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 		s2f32 = math.Float32frombits(uint32(s2i32))
 		s3i64 = 2147475456
 		s4i64 = 0
-		s5i64 = l9
+		s5i64 = l7
 		s6i64 = 32767
 		s5i64 = s5i64 & s6i64
-		l11 = s5i64
+		l9 = s5i64
 		s5i32 = int32(s5i64)
 		s6i32 = 1023
 		if uint32(s5i32) > uint32(s6i32) {
@@ -287,49 +233,13 @@ func f2030(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 		} else {
 			s3i64 = s4i64
 		}
-		s4i64 = l11
-		s5i64 = 13
-		s4i64 = s4i64 << (uint64(s5i64) & 63)
-		s5i64 = 939524096
-		s4i64 = s4i64 + s5i64
-		s3i64 = s3i64 & s4i64
 		s4i64 = l9
-		s5i64 = 16
-		s4i64 = s4i64 << (uint64(s5i64) & 63)
-		s5i64 = 2147483648
-		s4i64 = s4i64 & s5i64
-		s3i64 = s3i64 | s4i64
-		s3i32 = int32(s3i64)
-		s3f32 = math.Float32frombits(uint32(s3i32))
-		l15 = s3f32
-		s2f32 = s2f32 + s3f32
-		s3f32 = l15
-		s2f32 = s2f32 + s3f32
-		s3i64 = 2147475456
-		s4i64 = 0
-		s5i64 = l10
-		s6i64 = 32767
-		s5i64 = s5i64 & s6i64
-		l11 = s5i64
-		s5i32 = int32(s5i64)
-		s6i32 = 1023
-		if uint32(s5i32) > uint32(s6i32) {
-			s5i32 = 1
-		} else {
-			s5i32 = 0
-		}
-		if s5i32 != 0 {
-			// s3i64 = s3i64
-		} else {
-			s3i64 = s4i64
-		}
-		s4i64 = l11
 		s5i64 = 13
 		s4i64 = s4i64 << (uint64(s5i64) & 63)
 		s5i64 = 939524096
 		s4i64 = s4i64 + s5i64
 		s3i64 = s3i64 & s4i64
-		s4i64 = l10
+		s4i64 = l7
 		s5i64 = 16
 		s4i64 = s4i64 << (uint64(s5i64) & 63)
 		s5i64 = 2147483648
@@ -338,7 +248,7 @@ func f2030(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 		s3i32 = int32(s3i64)
 		s3f32 = math.Float32frombits(uint32(s3i32))
 		s2f32 = s2f32 + s3f32
-		s3f32 = 0.25
+		s3f32 = 0.5
 		s2f32 = s2f32 * s3f32
 		s2i32 = int32(math.Float32bits(s2f32))
 		l4 = s2i32
@@ -346,14 +256,14 @@ func f2030(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 		s2i32 = int32(uint32(s2i32) >> (uint32(s3i32) & 31))
 		s3i32 = 32768
 		s2i32 = s2i32 & s3i32
-		s3i64 = l8
+		s3i64 = l6
 		s3i32 = int32(s3i64)
 		s4i32 = -2147483648
 		s3i32 = s3i32 & s4i32
-		s4i64 = l8
+		s4i64 = l6
 		s5i64 = 16
 		s4i64 = int64(uint64(s4i64) >> (uint64(s5i64) & 63))
-		l8 = s4i64
+		l6 = s4i64
 		s4i32 = int32(s4i64)
 		s5i32 = 32767
 		s4i32 = s4i32 & s5i32
@@ -377,49 +287,14 @@ func f2030(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 		}
 		s3i32 = s3i32 | s4i32
 		s3f32 = math.Float32frombits(uint32(s3i32))
-		s4i64 = l9
+		s4i64 = l7
 		s4i32 = int32(s4i64)
 		s5i32 = -2147483648
 		s4i32 = s4i32 & s5i32
-		s5i64 = l9
+		s5i64 = l7
 		s6i64 = 16
 		s5i64 = int64(uint64(s5i64) >> (uint64(s6i64) & 63))
-		l9 = s5i64
-		s5i32 = int32(s5i64)
-		s6i32 = 32767
-		s5i32 = s5i32 & s6i32
-		l5 = s5i32
-		s6i32 = 13
-		s5i32 = s5i32 << (uint32(s6i32) & 31)
-		s6i32 = 939524096
-		s5i32 = s5i32 + s6i32
-		s6i32 = 0
-		s7i32 = l5
-		s8i32 = 1023
-		if uint32(s7i32) > uint32(s8i32) {
-			s7i32 = 1
-		} else {
-			s7i32 = 0
-		}
-		if s7i32 != 0 {
-			// s5i32 = s5i32
-		} else {
-			s5i32 = s6i32
-		}
-		s4i32 = s4i32 | s5i32
-		s4f32 = math.Float32frombits(uint32(s4i32))
-		l15 = s4f32
-		s3f32 = s3f32 + s4f32
-		s4f32 = l15
-		s3f32 = s3f32 + s4f32
-		s4i64 = l10
-		s4i32 = int32(s4i64)
-		s5i32 = -2147483648
-		s4i32 = s4i32 & s5i32
-		s5i64 = l10
-		s6i64 = 16
-		s5i64 = int64(uint64(s5i64) >> (uint64(s6i64) & 63))
-		l10 = s5i64
+		l7 = s5i64
 		s5i32 = int32(s5i64)
 		s6i32 = 32767
 		s5i32 = s5i32 & s6i32
@@ -444,7 +319,7 @@ func f2030(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 		s4i32 = s4i32 | s5i32
 		s4f32 = math.Float32frombits(uint32(s4i32))
 		s3f32 = s3f32 + s4f32
-		s4f32 = 0.25
+		s4f32 = 0.5
 		s3f32 = s3f32 * s4f32
 		s3i32 = int32(math.Float32bits(s3f32))
 		l5 = s3i32
@@ -503,10 +378,10 @@ func f2030(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 		s3i32 = 0
 		s4i64 = 2147475456
 		s5i64 = 0
-		s6i64 = l12
+		s6i64 = l8
 		s7i64 = 32767
 		s6i64 = s6i64 & s7i64
-		l12 = s6i64
+		l8 = s6i64
 		s6i32 = int32(s6i64)
 		s7i32 = 1023
 		if uint32(s6i32) > uint32(s7i32) {
@@ -519,13 +394,13 @@ func f2030(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 		} else {
 			s4i64 = s5i64
 		}
-		s5i64 = l12
+		s5i64 = l8
 		s6i64 = 13
 		s5i64 = s5i64 << (uint64(s6i64) & 63)
 		s6i64 = 939524096
 		s5i64 = s5i64 + s6i64
 		s4i64 = s4i64 & s5i64
-		s5i64 = l8
+		s5i64 = l6
 		s6i64 = 2147483648
 		s5i64 = s5i64 & s6i64
 		s4i64 = s4i64 | s5i64
@@ -533,10 +408,10 @@ func f2030(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 		s4f32 = math.Float32frombits(uint32(s4i32))
 		s5i64 = 2147475456
 		s6i64 = 0
-		s7i64 = l13
+		s7i64 = l10
 		s8i64 = 32767
 		s7i64 = s7i64 & s8i64
-		l8 = s7i64
+		l6 = s7i64
 		s7i32 = int32(s7i64)
 		s8i32 = 1023
 		if uint32(s7i32) > uint32(s8i32) {
@@ -549,54 +424,20 @@ func f2030(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 		} else {
 			s5i64 = s6i64
 		}
-		s6i64 = l8
+		s6i64 = l6
 		s7i64 = 13
 		s6i64 = s6i64 << (uint64(s7i64) & 63)
 		s7i64 = 939524096
 		s6i64 = s6i64 + s7i64
 		s5i64 = s5i64 & s6i64
-		s6i64 = l9
-		s7i64 = 2147483648
-		s6i64 = s6i64 & s7i64
-		s5i64 = s5i64 | s6i64
-		s5i32 = int32(s5i64)
-		s5f32 = math.Float32frombits(uint32(s5i32))
-		l15 = s5f32
-		s4f32 = s4f32 + s5f32
-		s5f32 = l15
-		s4f32 = s4f32 + s5f32
-		s5i64 = 2147475456
-		s6i64 = 0
-		s7i64 = l14
-		s8i64 = 32767
-		s7i64 = s7i64 & s8i64
-		l8 = s7i64
-		s7i32 = int32(s7i64)
-		s8i32 = 1023
-		if uint32(s7i32) > uint32(s8i32) {
-			s7i32 = 1
-		} else {
-			s7i32 = 0
-		}
-		if s7i32 != 0 {
-			// s5i64 = s5i64
-		} else {
-			s5i64 = s6i64
-		}
-		s6i64 = l8
-		s7i64 = 13
-		s6i64 = s6i64 << (uint64(s7i64) & 63)
-		s7i64 = 939524096
-		s6i64 = s6i64 + s7i64
-		s5i64 = s5i64 & s6i64
-		s6i64 = l10
+		s6i64 = l7
 		s7i64 = 2147483648
 		s6i64 = s6i64 & s7i64
 		s5i64 = s5i64 | s6i64
 		s5i32 = int32(s5i64)
 		s5f32 = math.Float32frombits(uint32(s5i32))
 		s4f32 = s4f32 + s5f32
-		s5f32 = 0.25
+		s5f32 = 0.5
 		s4f32 = s4f32 * s5f32
 		s4i32 = int32(math.Float32bits(s4f32))
 		l4 = s4i32
@@ -630,22 +471,14 @@ func f2030(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 		s2i64 = s2i64 << (uint64(s3i64) & 63)
 		s1i64 = s1i64 | s2i64
 		*(*uint64)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = uint64(s1i64)
-		s0i32 = l2
-		s1i32 = 16
-		s0i32 = s0i32 + s1i32
-		l2 = s0i32
-		s0i32 = l6
-		s1i32 = 16
-		s0i32 = s0i32 + s1i32
-		l6 = s0i32
 		s0i32 = l1
 		s1i32 = 16
 		s0i32 = s0i32 + s1i32
 		l1 = s0i32
-		s0i32 = l7
+		s0i32 = l2
 		s1i32 = 1
 		s0i32 = s0i32 + s1i32
-		l7 = s0i32
+		l2 = s0i32
 		s1i32 = l3
 		if s0i32 != s1i32 {
 			s0i32 = 1

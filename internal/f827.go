@@ -5,10 +5,6 @@ import (
 )
 
 func f827(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, l5 float32) {
-	var l6 float32
-	_ = l6
-	var l7 float32
-	_ = l7
 	var s0i32 int32
 	_ = s0i32
 	var s1i32 int32
@@ -19,6 +15,8 @@ func f827(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 	_ = s3i32
 	var s4i32 int32
 	_ = s4i32
+	var s5i32 int32
+	_ = s5i32
 	var s6i32 int32
 	_ = s6i32
 	var s2f32 float32
@@ -31,40 +29,29 @@ func f827(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 	_ = s5f32
 	var s6f32 float32
 	_ = s6f32
-	var s7f32 float32
-	_ = s7f32
 	s0i32 = l0
 	s1i32 = l1
 	s2i32 = 4
 	s1i32 = s1i32 + s2i32
-	s2i32 = l0
-	s2f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s2i32+12)]))
-	s3f32 = 1
-	s4i32 = l0
-	s4f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s4i32+24)]))
-	l7 = s4f32
-	s3f32 = s3f32 - s4f32
-	l6 = s3f32
-	s4f32 = l2
-	s3f32 = s3f32 * s4f32
-	s2f32 = s2f32 + s3f32
+	s2f32 = 1
+	s3f32 = l5
+	s2f32 = s2f32 - s3f32
+	l2 = s2f32
 	s3i32 = l0
-	s3f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s3i32+16)]))
-	s4f32 = l6
-	s5f32 = l3
-	s4f32 = s4f32 * s5f32
-	s3f32 = s3f32 + s4f32
+	s3f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s3i32+12)]))
+	s2f32 = s2f32 * s3f32
+	s3f32 = l2
 	s4i32 = l0
-	s4f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s4i32+20)]))
-	s5f32 = l6
-	s6f32 = l4
+	s4f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s4i32+16)]))
+	s3f32 = s3f32 * s4f32
+	s4f32 = l2
+	s5i32 = l0
+	s5f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s5i32+20)]))
+	s4f32 = s4f32 * s5f32
+	s5f32 = l2
+	s6i32 = l0
+	s6f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s6i32+24)]))
 	s5f32 = s5f32 * s6f32
-	s4f32 = s4f32 + s5f32
-	s5f32 = l7
-	s6f32 = l6
-	s7f32 = l5
-	s6f32 = s6f32 * s7f32
-	s5f32 = s5f32 + s6f32
 	s6i32 = l1
 	s6i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s6i32+0)]))
 	if int(s6i32) < 0 || int(s6i32) >= len(table) {

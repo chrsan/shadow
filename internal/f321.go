@@ -147,7 +147,7 @@ lbl0:
 		f71(ctx, s0i32)
 	}
 	s0i32 = l1
-	s0i32 = f1890(ctx, s0i32)
+	s0i32 = f1891(ctx, s0i32)
 	s1i32 = l0
 	*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = uint32(s1i32)
 	s0i32 = l1

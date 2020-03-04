@@ -21,7 +21,7 @@ func f1845(ctx *Context, l0 int32, l1 int32) int32 {
 	s0i32 = s0i32 + s1i32
 	s1i32 = l1
 	s2i32 = 2
-	s0i32 = f640(ctx, s0i32, s1i32, s2i32)
+	s0i32 = f642(ctx, s0i32, s1i32, s2i32)
 	if s0i32 != 0 {
 		s0i32 = l0
 		s1i32 = l0

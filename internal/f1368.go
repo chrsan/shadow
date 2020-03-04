@@ -4,35 +4,51 @@ import (
 	"unsafe"
 )
 
-func f1368(ctx *Context, l0 int32, l1 int32) {
+func f1368(ctx *Context, l0 int32, l1 int32, l2 int32) int32 {
+	var l3 int32
+	_ = l3
 	var s0i32 int32
 	_ = s0i32
 	var s1i32 int32
 	_ = s1i32
 	var s2i32 int32
 	_ = s2i32
-	var s1i64 int64
-	_ = s1i64
-	var s2i64 int64
-	_ = s2i64
-	var s1f64 float64
-	_ = s1f64
-	s0i32 = l1
-	s1i32 = l1
-	s1i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s1i32+0)]))
-	s2i32 = 15
-	s1i32 = s1i32 + s2i32
-	s2i32 = -16
-	s1i32 = s1i32 & s2i32
-	l1 = s1i32
-	s2i32 = 16
-	s1i32 = s1i32 + s2i32
-	*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = uint32(s1i32)
+	var s3i32 int32
+	_ = s3i32
+	var s4i32 int32
+	_ = s4i32
+	var s5i32 int32
+	_ = s5i32
 	s0i32 = l0
+	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+20)]))
+	l3 = s0i32
 	s1i32 = l1
-	s1i64 = *(*int64)(unsafe.Pointer(&ctx.Mem[int(s1i32+0)]))
+	s2i32 = l2
+	s3i32 = l0
+	s3i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s3i32+16)]))
+	s4i32 = l3
+	s3i32 = s3i32 - s4i32
+	l1 = s3i32
+	s4i32 = l1
+	s5i32 = l2
+	if uint32(s4i32) > uint32(s5i32) {
+		s4i32 = 1
+	} else {
+		s4i32 = 0
+	}
+	if s4i32 != 0 {
+		// s2i32 = s2i32
+	} else {
+		s2i32 = s3i32
+	}
+	l1 = s2i32
+	s0i32 = f22(ctx, s0i32, s1i32, s2i32)
+	s0i32 = l0
+	s1i32 = l0
+	s1i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s1i32+20)]))
 	s2i32 = l1
-	s2i64 = *(*int64)(unsafe.Pointer(&ctx.Mem[int(s2i32+8)]))
-	s1f64 = f1362(ctx, s1i64, s2i64)
-	*(*float64)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = s1f64
+	s1i32 = s1i32 + s2i32
+	*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+20)])) = uint32(s1i32)
+	s0i32 = l2
+	return s0i32
 }

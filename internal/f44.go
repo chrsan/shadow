@@ -12,7 +12,7 @@ func f44(ctx *Context, l0 int32, l1 int32) int32 {
 	s0i32 = s0i32 & s1i32
 	if s0i32 != 0 {
 		s0i32 = l0
-		s0i32 = f1350(ctx, s0i32)
+		s0i32 = f1352(ctx, s0i32)
 		goto lbl0
 	}
 	s0i32 = l0

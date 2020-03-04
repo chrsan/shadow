@@ -76,7 +76,7 @@ func f1126(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 in
 	s4i32 = l4
 	s5i32 = 4
 	s4i32 = s4i32 + s5i32
-	s0i32 = f1128(ctx, s0i32, s1i32, s2i32, s3i32, s4i32)
+	s0i32 = f1127(ctx, s0i32, s1i32, s2i32, s3i32, s4i32)
 	if s0i32 == 0 {
 		s0i32 = 1
 	} else {
@@ -207,7 +207,7 @@ func f1126(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 in
 		s1i32 = l6
 		s2i32 = 8
 		s1i32 = s1i32 + s2i32
-		f436(ctx, s0i32, s1i32)
+		f435(ctx, s0i32, s1i32)
 		s0i32 = l6
 		s1i32 = 72
 		s0i32 = s0i32 + s1i32

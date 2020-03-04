@@ -68,7 +68,7 @@ func f1737(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) {
 	s2i32 = l6
 	s3i32 = 8
 	s2i32 = s2i32 + s3i32
-	f1876(ctx, s0i32, s1i32, s2i32)
+	f1877(ctx, s0i32, s1i32, s2i32)
 	s0i32 = l6
 	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+8)]))
 	l2 = s0i32
@@ -153,7 +153,7 @@ func f1737(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) {
 	}
 	s0i32 = l0
 	s1i32 = l6
-	f622(ctx, s0i32, s1i32)
+	f623(ctx, s0i32, s1i32)
 	s0i32 = l6
 	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)]))
 	l0 = s0i32

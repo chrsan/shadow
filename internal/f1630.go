@@ -11,6 +11,10 @@ func f1630(ctx *Context, l0 int32) int32 {
 	_ = l2
 	var l3 int32
 	_ = l3
+	var l4 int32
+	_ = l4
+	var l5 int32
+	_ = l5
 	var s0i32 int32
 	_ = s0i32
 	var s1i32 int32
@@ -35,38 +39,57 @@ func f1630(ctx *Context, l0 int32) int32 {
 	}
 	if s0i32 != 0 {
 		s0i32 = l0
+		s1i32 = l0
+		s1i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s1i32+20)]))
+		l2 = s1i32
+		s2i32 = l1
+		s3i32 = 1
+		s2i32 = s2i32 << (uint32(s3i32) & 31)
+		s1i32 = s1i32 + s2i32
+		s1i32 = int32(*(*uint16)(unsafe.Pointer(&ctx.Mem[int(s1i32+4)])))
+		*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+8)])) = uint32(s1i32)
+		s0i32 = l2
 		s1i32 = l1
 		s2i32 = 1
 		s1i32 = s1i32 + s2i32
-		l2 = s1i32
-		*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+16)])) = uint32(s1i32)
-		s0i32 = l0
-		s1i32 = l1
-		s2i32 = 2
-		s1i32 = s1i32 + s2i32
-		*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+8)])) = uint32(s1i32)
-		s0i32 = l0
-		s1i32 = l1
-		s2i32 = l2
+		l3 = s1i32
+		s2i32 = l1
 		s3i32 = l1
 		s4i32 = 1
 		s3i32 = s3i32 & s4i32
-		l3 = s3i32
+		l4 = s3i32
 		if s3i32 != 0 {
 			// s1i32 = s1i32
 		} else {
 			s1i32 = s2i32
 		}
+		s2i32 = 1
+		s1i32 = s1i32 << (uint32(s2i32) & 31)
+		s0i32 = s0i32 + s1i32
+		s0i32 = int32(*(*uint16)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])))
+		l5 = s0i32
+		s0i32 = l2
+		s1i32 = l1
+		s2i32 = l3
+		s3i32 = l4
+		if s3i32 != 0 {
+			// s1i32 = s1i32
+		} else {
+			s1i32 = s2i32
+		}
+		s2i32 = 1
+		s1i32 = s1i32 << (uint32(s2i32) & 31)
+		s0i32 = s0i32 + s1i32
+		s0i32 = int32(*(*uint16)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])))
+		l1 = s0i32
+		s0i32 = l0
+		s1i32 = l3
+		*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+16)])) = uint32(s1i32)
+		s0i32 = l0
+		s1i32 = l1
 		*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+4)])) = uint32(s1i32)
 		s0i32 = l0
-		s1i32 = l2
-		s2i32 = l1
-		s3i32 = l3
-		if s3i32 != 0 {
-			// s1i32 = s1i32
-		} else {
-			s1i32 = s2i32
-		}
+		s1i32 = l5
 		*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = uint32(s1i32)
 		s0i32 = 1
 	} else {

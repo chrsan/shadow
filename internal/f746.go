@@ -5,18 +5,12 @@ import (
 )
 
 func f746(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, l5 float32) {
-	var l6 int32
-	_ = l6
 	var s0i32 int32
 	_ = s0i32
 	var s1i32 int32
 	_ = s1i32
 	var s2i32 int32
 	_ = s2i32
-	var s3i32 int32
-	_ = s3i32
-	var s4i32 int32
-	_ = s4i32
 	var s6i32 int32
 	_ = s6i32
 	var s2f32 float32
@@ -27,41 +21,18 @@ func f746(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 	_ = s4f32
 	var s5f32 float32
 	_ = s5f32
-	s0i32 = l1
-	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)]))
-	s1i32 = -1
-	s2i32 = 0
-	s3f32 = l2
-	s4f32 = 0
-	if s3f32 > s4f32 {
-		s3i32 = 1
-	} else {
-		s3i32 = 0
-	}
-	l6 = s3i32
-	if s3i32 != 0 {
-		// s1i32 = s1i32
-	} else {
-		s1i32 = s2i32
-	}
-	*(*uint32)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)])) = uint32(s1i32)
 	s0i32 = l0
 	s1i32 = l1
-	s2i32 = 8
+	s2i32 = 4
 	s1i32 = s1i32 + s2i32
-	s2f32 = l2
-	s3f32 = 0
-	s4i32 = l6
-	if s4i32 != 0 {
-		// s2f32 = s2f32
-	} else {
-		s2f32 = s3f32
-	}
+	s2f32 = 1
+	s3f32 = l2
+	s2f32 = s2f32 - s3f32
 	s3f32 = l3
 	s4f32 = l4
 	s5f32 = l5
 	s6i32 = l1
-	s6i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s6i32+4)]))
+	s6i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s6i32+0)]))
 	if int(s6i32) < 0 || int(s6i32) >= len(table) {
 		panic("table entry out of bounds")
 	}

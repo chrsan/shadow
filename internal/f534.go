@@ -151,7 +151,7 @@ func f534(ctx *Context, l0 int32, l1 float32, l2 float32, l3 int32, l4 int32, l5
 	s0i32 = s0i32 + s1i32
 	s1i32 = l6
 	s2i32 = l5
-	s0i32 = f347(ctx, s0i32, s1i32, s2i32)
+	s0i32 = f346(ctx, s0i32, s1i32, s2i32)
 	if s0i32 == 0 {
 		s0i32 = 1
 	} else {

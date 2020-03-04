@@ -35,7 +35,7 @@ func f1287(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 int32, l
 	l6 = s0i32
 	ctx.g0 = s0i32
 	s0i32 = l6
-	s0i32 = f38(ctx, s0i32)
+	s0i32 = f37(ctx, s0i32)
 	l7 = s0i32
 	s1i32 = l1
 	s2f32 = l2
@@ -53,7 +53,7 @@ func f1287(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 int32, l
 	} else {
 		s5i32 = 0
 	}
-	f2086(ctx, s0i32, s1i32, s2f32, s3f32, s4i32, s5i32)
+	f2085(ctx, s0i32, s1i32, s2f32, s3f32, s4i32, s5i32)
 	s0i32 = l0
 	s1i32 = l7
 	s2i32 = l5

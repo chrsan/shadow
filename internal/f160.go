@@ -745,7 +745,7 @@ lbl24:
 		s0i32 = s0i32 + s1i32
 		s1i32 = l0
 		s2i32 = l1
-		f1792(ctx, s0i32, s1i32, s2i32)
+		f1791(ctx, s0i32, s1i32, s2i32)
 		goto lbl21
 	}
 	s0i32 = l5
@@ -769,7 +769,7 @@ lbl23:
 		s1i32 = s1i32 + s2i32
 		s2i32 = l0
 		s3i32 = l1
-		f1791(ctx, s0i32, s1i32, s2i32, s3i32)
+		f1790(ctx, s0i32, s1i32, s2i32, s3i32)
 		goto lbl21
 	}
 	s0i32 = l5
@@ -793,7 +793,7 @@ lbl22:
 		s0i32 = s0i32 + s1i32
 		s1i32 = l0
 		s2i32 = l1
-		f1794(ctx, s0i32, s1i32, s2i32)
+		f1793(ctx, s0i32, s1i32, s2i32)
 		goto lbl21
 	}
 	s0i32 = l5
@@ -801,7 +801,7 @@ lbl22:
 	s0i32 = s0i32 + s1i32
 	s1i32 = l0
 	s2i32 = l1
-	f1782(ctx, s0i32, s1i32, s2i32)
+	f1780(ctx, s0i32, s1i32, s2i32)
 lbl21:
 	s0i32 = l3
 	f43(ctx, s0i32)

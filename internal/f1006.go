@@ -34,7 +34,7 @@ func f1006(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
 	if s2i32 != 0 {
 		s2i32 = l3
 		s3f32 = l5
-		s2f32 = f179(ctx, s2i32, s3f32)
+		s2f32 = f180(ctx, s2i32, s3f32)
 	} else {
 		s2f32 = l5
 	}

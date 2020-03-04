@@ -16,5 +16,5 @@ func f1922(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 	s2i32 = l2
 	s3i32 = l3
 	s4i32 = 1
-	f431(ctx, s0i32, s1i32, s2i32, s3i32, s4i32)
+	f430(ctx, s0i32, s1i32, s2i32, s3i32, s4i32)
 }

@@ -15,8 +15,6 @@ func f799(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 	_ = s3i32
 	var s4i32 int32
 	_ = s4i32
-	var s5i32 int32
-	_ = s5i32
 	var s6i32 int32
 	_ = s6i32
 	var s2f32 float32
@@ -39,23 +37,13 @@ func f799(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 	s2f32 = s2f32 * s3f32
 	s3i32 = l0
 	s3f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s3i32+8)]))
-	s4f32 = l3
-	s3f32 = s3f32 * s4f32
-	s4i32 = l0
-	s4f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s4i32+16)]))
-	s3f32 = s3f32 + s4f32
 	s2f32 = s2f32 + s3f32
 	s3i32 = l0
 	s3f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s3i32+4)]))
-	s4f32 = l2
+	s4f32 = l3
 	s3f32 = s3f32 * s4f32
 	s4i32 = l0
 	s4f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s4i32+12)]))
-	s5f32 = l3
-	s4f32 = s4f32 * s5f32
-	s5i32 = l0
-	s5f32 = *(*float32)(unsafe.Pointer(&ctx.Mem[int(s5i32+20)]))
-	s4f32 = s4f32 + s5f32
 	s3f32 = s3f32 + s4f32
 	s4f32 = l4
 	s5f32 = l5

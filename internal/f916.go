@@ -25,15 +25,16 @@ func f916(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 	_ = s4f32
 	var s5f32 float32
 	_ = s5f32
-	s0f32 = l4
-	s1f32 = l5
-	s2f32 = 1
-	s1f32 = f14(ctx, s1f32, s2f32)
-	l4 = s1f32
+	s0f32 = l5
+	s1f32 = 1
 	s0f32 = f14(ctx, s0f32, s1f32)
 	l5 = s0f32
+	s0f32 = l4
+	s1f32 = 1
+	s0f32 = f14(ctx, s0f32, s1f32)
+	l4 = s0f32
 	s0f32 = l3
-	s1f32 = l4
+	s1f32 = 1
 	s0f32 = f14(ctx, s0f32, s1f32)
 	l3 = s0f32
 	s0i32 = l0
@@ -41,11 +42,11 @@ func f916(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 	s2i32 = 4
 	s1i32 = s1i32 + s2i32
 	s2f32 = l2
-	s3f32 = l4
+	s3f32 = 1
 	s2f32 = f14(ctx, s2f32, s3f32)
 	s3f32 = l3
-	s4f32 = l5
-	s5f32 = l4
+	s4f32 = l4
+	s5f32 = l5
 	s6i32 = l1
 	s6i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s6i32+0)]))
 	if int(s6i32) < 0 || int(s6i32) >= len(table) {

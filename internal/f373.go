@@ -1,137 +1,78 @@
 package internal
 
-import (
-	"math"
-	"unsafe"
-)
-
-func f373(ctx *Context, l0 float64) float64 {
-	var l1 int32
-	_ = l1
-	var l2 int32
+func f373(ctx *Context, l0 float64, l1 float64) float64 {
+	var l2 float64
 	_ = l2
-	var s0i32 int32
-	_ = s0i32
-	var s1i32 int32
-	_ = s1i32
-	var s2i32 int32
-	_ = s2i32
-	var s0i64 int64
-	_ = s0i64
-	var s1i64 int64
-	_ = s1i64
+	var l3 float64
+	_ = l3
+	var l4 float64
+	_ = l4
 	var s0f64 float64
 	_ = s0f64
 	var s1f64 float64
 	_ = s1f64
-	s0i32 = ctx.g0
-	s1i32 = 16
-	s0i32 = s0i32 - s1i32
-	l1 = s0i32
-	ctx.g0 = s0i32
-	s0f64 = l0
-	s0i64 = int64(math.Float64bits(s0f64))
-	s1i64 = 32
-	s0i64 = int64(uint64(s0i64) >> (uint64(s1i64) & 63))
-	s0i32 = int32(s0i64)
-	s1i32 = 2147483647
-	s0i32 = s0i32 & s1i32
-	l2 = s0i32
-	s1i32 = 1072243195
-	if uint32(s0i32) <= uint32(s1i32) {
-		s0i32 = 1
-	} else {
-		s0i32 = 0
-	}
-	if s0i32 != 0 {
-		s0f64 = 1
-		s1i32 = l2
-		s2i32 = 1044816030
-		if uint32(s1i32) < uint32(s2i32) {
-			s1i32 = 1
-		} else {
-			s1i32 = 0
-		}
-		if s1i32 != 0 {
-			goto lbl0
-		}
-		s0f64 = l0
-		s1f64 = 0
-		s0f64 = f374(ctx, s0f64, s1f64)
-		goto lbl0
-	}
-	s0f64 = l0
+	var s2f64 float64
+	_ = s2f64
+	var s3f64 float64
+	_ = s3f64
+	var s4f64 float64
+	_ = s4f64
+	var s5f64 float64
+	_ = s5f64
+	var s6f64 float64
+	_ = s6f64
+	var s7f64 float64
+	_ = s7f64
+	s0f64 = 1
 	s1f64 = l0
+	s2f64 = l0
+	s1f64 = s1f64 * s2f64
+	l2 = s1f64
+	s2f64 = 0.5
+	s1f64 = s1f64 * s2f64
+	l3 = s1f64
 	s0f64 = s0f64 - s1f64
-	s1i32 = l2
-	s2i32 = 2146435072
-	if uint32(s1i32) >= uint32(s2i32) {
-		s1i32 = 1
-	} else {
-		s1i32 = 0
-	}
-	if s1i32 != 0 {
-		goto lbl0
-	}
-	s0f64 = l0
-	s1i32 = l1
-	s0i32 = f1361(ctx, s0f64, s1i32)
-	s1i32 = 3
-	s0i32 = s0i32 & s1i32
-	l2 = s0i32
-	s1i32 = 2
-	if uint32(s0i32) <= uint32(s1i32) {
-		s0i32 = 1
-	} else {
-		s0i32 = 0
-	}
-	if s0i32 != 0 {
-		s0i32 = l2
-		s1i32 = 1
-		s0i32 = s0i32 - s1i32
-		switch s0i32 {
-		case 0:
-			goto lbl4
-		case 1:
-			goto lbl3
-		default:
-			goto lbl5
-		}
-	lbl5:
-		s0i32 = l1
-		s0f64 = *(*float64)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)]))
-		s1i32 = l1
-		s1f64 = *(*float64)(unsafe.Pointer(&ctx.Mem[int(s1i32+8)]))
-		s0f64 = f374(ctx, s0f64, s1f64)
-		goto lbl0
-	lbl4:
-		s0i32 = l1
-		s0f64 = *(*float64)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)]))
-		s1i32 = l1
-		s1f64 = *(*float64)(unsafe.Pointer(&ctx.Mem[int(s1i32+8)]))
-		s0f64 = f537(ctx, s0f64, s1f64)
-		s0f64 = -s0f64
-		goto lbl0
-	lbl3:
-		s0i32 = l1
-		s0f64 = *(*float64)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)]))
-		s1i32 = l1
-		s1f64 = *(*float64)(unsafe.Pointer(&ctx.Mem[int(s1i32+8)]))
-		s0f64 = f374(ctx, s0f64, s1f64)
-		s0f64 = -s0f64
-		goto lbl0
-	}
-	s0i32 = l1
-	s0f64 = *(*float64)(unsafe.Pointer(&ctx.Mem[int(s0i32+0)]))
-	s1i32 = l1
-	s1f64 = *(*float64)(unsafe.Pointer(&ctx.Mem[int(s1i32+8)]))
-	s0f64 = f537(ctx, s0f64, s1f64)
-lbl0:
-	l0 = s0f64
-	s0i32 = l1
-	s1i32 = 16
-	s0i32 = s0i32 + s1i32
-	ctx.g0 = s0i32
-	s0f64 = l0
+	l4 = s0f64
+	s1f64 = 1
+	s2f64 = l4
+	s1f64 = s1f64 - s2f64
+	s2f64 = l3
+	s1f64 = s1f64 - s2f64
+	s2f64 = l2
+	s3f64 = l2
+	s4f64 = l2
+	s5f64 = l2
+	s6f64 = 2.480158728947673e-05
+	s5f64 = s5f64 * s6f64
+	s6f64 = -0.001388888888887411
+	s5f64 = s5f64 + s6f64
+	s4f64 = s4f64 * s5f64
+	s5f64 = 0.0416666666666666
+	s4f64 = s4f64 + s5f64
+	s3f64 = s3f64 * s4f64
+	s4f64 = l2
+	s5f64 = l2
+	s4f64 = s4f64 * s5f64
+	l3 = s4f64
+	s5f64 = l3
+	s4f64 = s4f64 * s5f64
+	s5f64 = l2
+	s6f64 = l2
+	s7f64 = -1.1359647557788195e-11
+	s6f64 = s6f64 * s7f64
+	s7f64 = 2.087572321298175e-09
+	s6f64 = s6f64 + s7f64
+	s5f64 = s5f64 * s6f64
+	s6f64 = -2.7557314351390663e-07
+	s5f64 = s5f64 + s6f64
+	s4f64 = s4f64 * s5f64
+	s3f64 = s3f64 + s4f64
+	s2f64 = s2f64 * s3f64
+	s3f64 = l0
+	s4f64 = l1
+	s3f64 = s3f64 * s4f64
+	s2f64 = s2f64 - s3f64
+	s1f64 = s1f64 + s2f64
+	s0f64 = s0f64 + s1f64
 	return s0f64
 }

@@ -25,9 +25,9 @@ func f904(ctx *Context, l0 int32, l1 int32, l2 float32, l3 float32, l4 float32, 
 	s1i32 = l1
 	s2i32 = 4
 	s1i32 = s1i32 + s2i32
-	s2f32 = 1
-	s3f32 = 1
-	s4f32 = 1
+	s2f32 = 0
+	s3f32 = 0
+	s4f32 = 0
 	s5f32 = 1
 	s6i32 = l1
 	s6i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s6i32+0)]))

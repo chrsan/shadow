@@ -223,7 +223,7 @@ lbl8:
 	s4i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s4i32+56)]))
 	s5i32 = l7
 	s5i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s5i32+0)]))
-	s5i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s5i32+132)]))
+	s5i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s5i32+116)]))
 	if int(s5i32) < 0 || int(s5i32) >= len(table) {
 		panic("table entry out of bounds")
 	}

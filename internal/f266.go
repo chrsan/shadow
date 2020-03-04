@@ -283,7 +283,7 @@ lbl4:
 	s3i32 = l3
 	s4i32 = l5
 	s5i32 = l1
-	s0i32 = f638(ctx, s0i32, s1i32, s2i32, s3i32, s4i32, s5i32)
+	s0i32 = f640(ctx, s0i32, s1i32, s2i32, s3i32, s4i32, s5i32)
 	l1 = s0i32
 	s0i32 = l0
 	s1i32 = l5

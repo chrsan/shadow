@@ -166,7 +166,7 @@ lbl1:
 	}
 	s0i32 = 2
 	s1i32 = l0
-	s1i32 = f618(ctx, s1i32)
+	s1i32 = f619(ctx, s1i32)
 	if s1i32 == 0 {
 		s1i32 = 1
 	} else {
@@ -177,7 +177,7 @@ lbl1:
 	}
 	s0i32 = 1
 	s1i32 = l0
-	s1f32 = f692(ctx, s1i32)
+	s1f32 = f693(ctx, s1i32)
 	l5 = s1f32
 	s2f32 = 0
 	if s1f32 == s2f32 {

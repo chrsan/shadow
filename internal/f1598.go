@@ -29,7 +29,7 @@ func f1598(ctx *Context, l0 int32, l1 int32) int32 {
 	s2i32 = l3
 	s3i32 = 8
 	s2i32 = s2i32 + s3i32
-	s0i32 = f1160(ctx, s0i32, s1i32, s2i32)
+	s0i32 = f1159(ctx, s0i32, s1i32, s2i32)
 	if s0i32 == 0 {
 		s0i32 = 1
 	} else {

@@ -26,7 +26,7 @@ func f300(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 	s1i32 = l2
 	s2i32 = l3
 	s3i32 = 2
-	f580(ctx, s0i32, s1i32, s2i32, s3i32)
+	f581(ctx, s0i32, s1i32, s2i32, s3i32)
 	s0i32 = l4
 	s0i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s0i32+24)]))
 	l3 = s0i32
@@ -87,7 +87,7 @@ func f300(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32) {
 	s3i32 = 8
 	s2i32 = s2i32 + s3i32
 	s3i32 = l4
-	f581(ctx, s0i32, s1i32, s2i32, s3i32)
+	f582(ctx, s0i32, s1i32, s2i32, s3i32)
 	s0i32 = l4
 	s1i32 = l4
 	s1i32 = *(*int32)(unsafe.Pointer(&ctx.Mem[int(s1i32+16)]))

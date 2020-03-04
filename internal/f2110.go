@@ -210,7 +210,7 @@ func f2110(ctx *Context, l0 int32) float32 {
 	s1i32 = l1
 	s2i32 = 4
 	s1i32 = s1i32 + s2i32
-	s0i32 = f447(ctx, s0i32, s1i32)
+	s0i32 = f446(ctx, s0i32, s1i32)
 	l3 = s0i32
 	s1i32 = 1
 	if s0i32 >= s1i32 {

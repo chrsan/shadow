@@ -56,7 +56,7 @@ lbl2:
 	s1i32 = l0
 	s2i32 = 8
 	s1i32 = s1i32 + s2i32
-	f660(ctx, s0i32, s1i32)
+	f661(ctx, s0i32, s1i32)
 lbl1:
 	s0i32 = l0
 	s0i32 = int32(ctx.Mem[int(s0i32+2)])
@@ -107,7 +107,7 @@ lbl5:
 	s1i32 = l0
 	s2i32 = 36
 	s1i32 = s1i32 + s2i32
-	f660(ctx, s0i32, s1i32)
+	f661(ctx, s0i32, s1i32)
 lbl4:
 	s0i32 = l0
 	s0i32 = int32(ctx.Mem[int(s0i32+4)])

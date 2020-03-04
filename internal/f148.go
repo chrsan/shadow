@@ -71,7 +71,7 @@ func f148(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int
 		s4i32 = l3
 		s3i32 = s3i32 + s4i32
 		s4i32 = l4
-		f414(ctx, s0i32, s1i32, s2i32, s3i32, s4i32)
+		f413(ctx, s0i32, s1i32, s2i32, s3i32, s4i32)
 		return
 	}
 	s0i32 = l1
@@ -86,7 +86,7 @@ func f148(ctx *Context, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int
 		s4i32 = l1
 		s3i32 = s3i32 - s4i32
 		s4i32 = l4
-		f414(ctx, s0i32, s1i32, s2i32, s3i32, s4i32)
+		f413(ctx, s0i32, s1i32, s2i32, s3i32, s4i32)
 		s0i32 = l6
 		s1i32 = 1
 		s0i32 = s0i32 + s1i32
@@ -272,6 +272,6 @@ lbl3:
 	s2i32 = l2
 	s3i32 = l1
 	s4i32 = l4
-	f414(ctx, s0i32, s1i32, s2i32, s3i32, s4i32)
+	f413(ctx, s0i32, s1i32, s2i32, s3i32, s4i32)
 lbl0:
 }

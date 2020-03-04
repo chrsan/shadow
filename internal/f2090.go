@@ -676,7 +676,7 @@ lbl11:
 	s2i32 = 0
 	s3i32 = 718
 	s4i32 = l3
-	f684(ctx, s0i32, s1i32, s2i32, s3i32, s4i32)
+	f685(ctx, s0i32, s1i32, s2i32, s3i32, s4i32)
 	s0i32 = l2
 	s1i32 = l2
 	s1i32 = int32(ctx.Mem[int(s1i32+10)])
